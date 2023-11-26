@@ -1,7 +1,6 @@
 package com.example.teamcity.api.requests.unchecked;
 
 import com.example.teamcity.api.requests.CrudInterface;
-import com.example.teamcity.api.spec.Specifications;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 
@@ -26,7 +25,7 @@ public class UncheckedProject implements CrudInterface {
 
     @Override
     public Response get(String id) {
-        return given().spec(spec).get(PROJECT_ENDPOINT + "/id" + id);
+        return given().spec(spec).get(PROJECT_ENDPOINT + "/id:" + id);
     }
 
     @Override
@@ -39,6 +38,5 @@ public class UncheckedProject implements CrudInterface {
         return given()
                 .spec(spec)
                 .delete(PROJECT_ENDPOINT + "/id:" + id);
-
     }
 }
