@@ -12,7 +12,7 @@ import org.testng.annotations.Test;
 
 import java.util.Arrays;
 
-public class RolesTest extends BaseApiTest{
+public class RolesTest extends BaseApiTest {
 
     @Test
     public void unauthorizedUser() {
@@ -26,50 +26,58 @@ public class RolesTest extends BaseApiTest{
 //                .body(Matchers.containsString("Authentication required"));
                 .body(Matchers.equalTo("Authentication required\nTo login manually go to \"/login.html\" page"));
 
-        testData.getUser().setRoles(Roles.builder()
-                .role(Arrays.asList(Role.builder()
-                        .scope("SYSTEM_ADMIN")
-                        .build()))
-                .build());
+//        testData.getUser()
+//                .setRoles(Roles.builder()
+//                        .role(Arrays.asList(Role.builder()
+//                                .roleId("SYSTEM_ADMIN")
+//                                .scope("g")
+//                                .build()))
+//                        .build());
+//
+//        new CheckedUser(Specifications.getSpec().superUserSpec())
+//                .create(testData.getUser());
 
-        new UncheckedProject(Specifications.getSpec().authSpec(testData.getUser()))
+//        new UncheckedProject(Specifications.getSpec().authSpec(testData.getUser()))
+        new UncheckedProject(Specifications.getSpec().superUserSpec())
                 .get(testData.getProject().getId())
                 .then().assertThat().statusCode(HttpStatus.SC_NOT_FOUND)
-//                .body(Matchers.containsString("No project found by locator" +
-//                        " 'count:1,id:" + testData.getProject().getId() + "'"));
-               .body(Matchers.containsString("No project found by name or internal/external id '" + testData.getProject().getId() + "'"));
+                .body(Matchers.containsString("No project found by locator" +
+                        " 'count:1,id:" + testData.getProject().getId() + "'"));
     }
 
     @Test
     public void unauthorizedUserShouldNotHaveRightToCreateProject() {
-
-        //        var testData = testDataStorage.addTestData();
+        // 1. Create project by unauth user
+        // 2. Check error is "Auth required" (401)
+        // 3. Check project is not created (Login with auth user, check project not found (404))
 
         new UncheckedProject(Specifications.getSpec().unauthSpec())
                 .create(testData.getProject())
                 .then().assertThat().statusCode(HttpStatus.SC_UNAUTHORIZED)
-                        .body(Matchers.equalTo("Authentication required\nTo login manually go to \"/login.html\" page"));
-
+//                .body(Matchers.containsString("Authentication required"));
+                .body(Matchers.equalTo("Authentication required\nTo login manually go to \"/login.html\" page"));
 
         new UncheckedProject(Specifications.getSpec().superUserSpec())
                 .get(testData.getProject().getId())
                 .then().assertThat().statusCode(HttpStatus.SC_NOT_FOUND)
                 .body(Matchers.containsString("No project found by locator" +
-                        " 'count:1,id:"+ testData.getProject().getId() + "'"));
+                        " 'count:1,id:" + testData.getProject().getId() + "'"));
     }
 
     @Test
+    //    public void systemAdminTest() {
     public void systemAdminShouldHaveRightsToCreateProject() {
-        //    public void systemAdminTest() {
         // 1. Create user SYSTEM_ADMIN (login as SYSTEM_ADMIN)
         // 2. Create project by SYSTEM_ADMIN
         // 3. Check project is created
 
-        testData.getUser().setRoles(Roles.builder()
+        testData.getUser()
+                .setRoles(Roles.builder()
                         .role(Arrays.asList(Role.builder()
-                                        .scope("SYSTEM_ADMIN")
+                                .roleId("SYSTEM_ADMIN")
+                                .scope("g")
                                 .build()))
-                .build());
+                        .build());
 
         new CheckedUser(Specifications.getSpec().superUserSpec())
                 .create(testData.getUser());
