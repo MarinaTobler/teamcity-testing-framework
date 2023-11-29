@@ -1,18 +1,19 @@
 package com.example.teamcity.api.requests.unchecked;
 
 import com.example.teamcity.api.requests.CrudInterface;
+import com.example.teamcity.api.requests.Request;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 
 import static io.restassured.RestAssured.given;
 
-public class UncheckedUser implements CrudInterface {
+public class UncheckedUser extends Request implements CrudInterface {
     private final static String USER_ENDPOINT = "/app/rest/users";
-    private final RequestSpecification spec;
 
     public UncheckedUser(RequestSpecification spec) {
-        this.spec = spec; 
+        super(spec);
     }
+
     @Override
     public Response create(Object obj) {
         return given()

@@ -2,17 +2,17 @@ package com.example.teamcity.api.requests.checked;
 
 import com.example.teamcity.api.models.Project;
 import com.example.teamcity.api.requests.CrudInterface;
+import com.example.teamcity.api.requests.Request;
 import com.example.teamcity.api.requests.unchecked.UncheckedProject;
 import io.restassured.specification.RequestSpecification;
 import org.apache.http.HttpStatus;
 
-public class CheckedProject implements CrudInterface {
+public class CheckedProject extends Request implements CrudInterface {
 
-    private final RequestSpecification spec;
-
-    public CheckedProject(RequestSpecification user){
-   this.spec = user;
+    public CheckedProject(RequestSpecification spec){
+        super(spec);
     }
+
     @Override
     public Project create(Object obj) {
         return new UncheckedProject(spec).create(obj)
@@ -22,7 +22,6 @@ public class CheckedProject implements CrudInterface {
 
     @Override
     public Project get(String id) {
-
         return new UncheckedProject(spec)
                 .get(id)
                 .then().assertThat().statusCode(HttpStatus.SC_OK)
