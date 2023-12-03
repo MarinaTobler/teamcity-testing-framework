@@ -2,6 +2,7 @@ package com.example.teamcity.api.requests.unchecked;
 
 import com.example.teamcity.api.requests.CrudInterface;
 import com.example.teamcity.api.requests.Request;
+import com.example.teamcity.api.spec.Specifications;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 
@@ -32,9 +33,15 @@ public class UncheckedUser extends Request implements CrudInterface {
         return null;
     }
 
+//    @Override
+//    public Response delete(String id) {
+//        return given().spec(spec)
+//                .delete(USER_ENDPOINT + "/username:" + id);
+//    }
+
     @Override
     public Response delete(String id) {
-        return given().spec(spec)
+        return given().spec(Specifications.getSpec().superUserSpec())
                 .delete(USER_ENDPOINT + "/username:" + id);
     }
 }
