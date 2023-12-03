@@ -2,6 +2,7 @@ package com.example.teamcity.api;
 
 import com.example.teamcity.api.enums.Role;
 import com.example.teamcity.api.generators.TestDataGenerator;
+import com.example.teamcity.api.requests.UncheckedRequests;
 import com.example.teamcity.api.requests.checked.CheckedBuildConfig;
 import com.example.teamcity.api.requests.checked.CheckedProject;
 import com.example.teamcity.api.requests.unchecked.UncheckedBuildConfig;
@@ -23,7 +24,8 @@ public class RolesTest extends BaseApiTest {
         var testData = testDataStorage.addTestData();
 
 //        new UncheckedProject(Specifications.getSpec().unauthSpec())
-        uncheckedWithSuperUser.getProjectRequest()
+//        uncheckedWithSuperUser.getProjectRequest()
+                new UncheckedRequests(Specifications.getSpec().unauthSpec()).getProjectRequest()
                 .create(testData.getProject())
                 .then().assertThat().statusCode(HttpStatus.SC_UNAUTHORIZED)
 //                .body(Matchers.containsString("Authentication required"));
