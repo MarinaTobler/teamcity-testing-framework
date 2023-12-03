@@ -25,11 +25,13 @@ public class UncheckedProject extends Request implements CrudInterface {
 
     @Override
     public Response get(String id) {
-        return given().spec(spec).get(PROJECT_ENDPOINT + "/id:" + id);
+        return given()
+                .spec(spec)
+                .get(PROJECT_ENDPOINT + "/id:" + id);
     }
 
     @Override
-    public Object update(Object obj) {
+    public Object update(String id, Object obj) {
         return null;
     }
 
