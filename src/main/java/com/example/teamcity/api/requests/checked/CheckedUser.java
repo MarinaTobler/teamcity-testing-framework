@@ -4,6 +4,7 @@ import com.example.teamcity.api.models.User;
 import com.example.teamcity.api.requests.CrudInterface;
 import com.example.teamcity.api.requests.Request;
 import com.example.teamcity.api.requests.unchecked.UncheckedUser;
+import com.example.teamcity.api.spec.Specifications;
 import io.restassured.specification.RequestSpecification;
 import org.apache.http.HttpStatus;
 
@@ -30,9 +31,17 @@ public class CheckedUser extends Request implements CrudInterface {
         return null;
     }
 
+//    @Override
+//    public Object delete(String id) {
+//        return new UncheckedUser(spec)
+//                .delete(id)
+//                .then().assertThat().statusCode(HttpStatus.SC_NO_CONTENT)
+//                .extract().asString();
+//    }
+
     @Override
     public Object delete(String id) {
-        return new UncheckedUser(spec)
+        return new UncheckedUser(Specifications.getSpec().superUserSpec())
                 .delete(id)
                 .then().assertThat().statusCode(HttpStatus.SC_NO_CONTENT)
                 .extract().asString();
