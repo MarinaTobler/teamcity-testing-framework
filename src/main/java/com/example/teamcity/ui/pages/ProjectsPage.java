@@ -15,7 +15,7 @@ public class ProjectsPage extends FavoritesPage{
 
 //    * private ElementsCollection subprojects = elements(new ByAttribute("class", "Subproject__container--WE"));
 //    * private ElementsCollection subprojects = elements(Selectors.byClass("Subproject__container--WE"));
-    private ElementsCollection subprojects = $$(byClassName("Subproject__container--WE"));
+    private final ElementsCollection subprojects = $$(byClassName("Subproject__container--WE"));
 
     // ElementsCollection -> List<ProjectElement>
         public ProjectsPage open() {
