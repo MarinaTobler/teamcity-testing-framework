@@ -73,6 +73,22 @@ public class CreateNewProjectTest extends BaseUiTest {
         var projectsAfterCreatingProject = new CheckedProjects(Specifications.getSpec().superUserSpec())
                 .getProjects();
         Assert.assertEquals(projectsBeforeCreatingProject, projectsAfterCreatingProject);
+
+        // или:
+
+//        var project = new CheckedProjects(Specifications.getSpec().superUserSpec()).getProjects().getProject()
+//                .stream().filter(p -> p.getName().equals(testData.getProject().getName()))
+//                .findFirst();
+//
+//        var projectId = project.get().getId();
+//
+//        new UncheckedProject(Specifications.getSpec().superUserSpec()).get(val)
+//                .then().assertThat().statusCode(HttpStatus.SC_NOT_FOUND)
+//                .body(Matchers.containsString("No project found by locator" +
+//                        " 'count:1,id:" + val + "'"));
+//
+//        // Delete project ? if status code was 200 (was created)
+//        new UncheckedProject(Specifications.getSpec().superUserSpec()).delete(val);
     }
 
     @Test
