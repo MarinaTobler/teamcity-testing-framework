@@ -42,8 +42,11 @@ public class BuildConfigCanBeCreatedTests extends BaseApiTest {
         softy.assertThat(buildConfig.getId()).isEqualTo(buildConfigId);
 
 //        new UncheckedProject(Specifications.getSpec().superUserSpec()).delete(project.getId());
-//      No need to delete project, as testData is deleting in AfterMethod in BaseApiTest - buildConfig should be created
-//      in same project from testData ??
+//      No need to delete project, as testData is deleting in AfterMethod in BaseApiTest - buildConfig is created
+//      in the same project from testData
         new UncheckedProject(Specifications.getSpec().superUserSpec()).delete(projectDescription.getId());
+
+        // no need for AfterMethod as we can not delete project by superAdmin (we did not create it) and can not delete
+        // superUser at All!
     }
 }
