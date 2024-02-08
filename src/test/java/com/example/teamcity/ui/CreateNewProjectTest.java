@@ -14,7 +14,7 @@ import static com.codeborne.selenide.Condition.exactText;
 import static com.codeborne.selenide.Condition.text;
 
 public class CreateNewProjectTest extends BaseUiTest {
-    @Test
+    @Test(groups = {"Regression"})
     public void authorizedUserShouldBeAbleCreateNewProject() {
         var testData = testDataStorage.addTestData();
         var url = "https://github.com/AlexPshe/spring-core-for-qa";
@@ -39,7 +39,7 @@ public class CreateNewProjectTest extends BaseUiTest {
         softy.assertThat(project.get().getName()).isEqualTo(testData.getProject().getName());
     }
 
-    @Test
+    @Test(groups = {"Regression"})
     public void authorizedUserShouldNotBeAbleCreateNewProjectWithoutProjectName() {
         var testData = testDataStorage.addTestData();
         var url = "https://github.com/AlexPshe/spring-core-for-qa";
@@ -75,7 +75,7 @@ public class CreateNewProjectTest extends BaseUiTest {
         Assert.assertEquals(projectsBeforeCreatingProject, projectsAfterCreatingProject);
     }
 
-    @Test
+    @Test(groups = {"Regression"})
     public void authorizedUserShouldNotBeAbleCreateNewProjectWithoutBuildConfigName() {
         var testData = testDataStorage.addTestData();
         var url = "https://github.com/AlexPshe/spring-core-for-qa";

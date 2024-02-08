@@ -11,7 +11,7 @@ import org.hamcrest.Matchers;
 import org.testng.annotations.Test;
 
 public class ProjectInvalidNameTests extends BaseApiTest {
-    @Test
+    @Test(groups = {"Regression"})
     public void emptyNameProjectTest() {
         // Equivalence Partitioning:
         // 2. Invalid classes:
@@ -42,7 +42,7 @@ public class ProjectInvalidNameTests extends BaseApiTest {
         // ? TODO: Delete project if status code would be 200 (would be created)
         // new UncheckedProject(Specifications.getSpec().superUserSpec()).delete(projectId);
     }
-    @Test
+    @Test(groups = {"Regression"})
     public void uniqueNameProjectTest() {
         // 1. Create project with Name
         // 2. Create another project with the same Name

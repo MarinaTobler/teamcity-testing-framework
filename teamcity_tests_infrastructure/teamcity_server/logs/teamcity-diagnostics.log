@@ -1,0 +1,2 @@
+[2024-02-08 18:01:49,361]   INFO - .web.RequestDiagnosticProvider - Request processing took too long: 40s,626ms, request: GET '/favorite/projects', from client 172.17.0.1:35078, authenticated as user with id=2
+[2024-02-08 18:08:10,524]   INFO - ver.diagnostic.ThreadDumpSaver - Thread dump automatically saved to file "/opt/teamcity/logs/threadDumps-2024-02-08/2024-02-08_18.08.10-shutdown.txt" with summary: Server cannot shutdown properly: some non-daemon threads are still running

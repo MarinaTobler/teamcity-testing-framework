@@ -1,0 +1,56 @@
+08-Feb-2024 17:56:33.017 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.75
+08-Feb-2024 17:56:33.034 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 4 2023 13:04:05 UTC
+08-Feb-2024 17:56:33.034 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.75.0
+08-Feb-2024 17:56:33.035 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+08-Feb-2024 17:56:33.035 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.15.133.1-microsoft-standard-WSL2
+08-Feb-2024 17:56:33.035 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+08-Feb-2024 17:56:33.036 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /opt/java/openjdk
+08-Feb-2024 17:56:33.036 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.7+7-LTS
+08-Feb-2024 17:56:33.036 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Amazon.com Inc.
+08-Feb-2024 17:56:33.036 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /opt/teamcity
+08-Feb-2024 17:56:33.037 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /opt/teamcity
+08-Feb-2024 17:56:33.104 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=jdk.management/com.sun.management.internal=ALL-UNNAMED
+08-Feb-2024 17:56:33.105 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+IgnoreUnrecognizedVMOptions
+08-Feb-2024 17:56:33.105 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+08-Feb-2024 17:56:33.105 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+08-Feb-2024 17:56:33.105 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+08-Feb-2024 17:56:33.105 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+08-Feb-2024 17:56:33.105 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+08-Feb-2024 17:56:33.105 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/opt/teamcity/conf/logging.properties
+08-Feb-2024 17:56:33.106 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+08-Feb-2024 17:56:33.106 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+08-Feb-2024 17:56:33.106 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+08-Feb-2024 17:56:33.106 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+08-Feb-2024 17:56:33.106 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx2g
+08-Feb-2024 17:56:33.106 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:ReservedCodeCacheSize=640m
+08-Feb-2024 17:56:33.107 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dteamcity.configuration.path=../conf/teamcity-startup.properties
+08-Feb-2024 17:56:33.107 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dlog4j2.configurationFile=file:/opt/teamcity/bin/../conf/teamcity-server-log4j.xml
+08-Feb-2024 17:56:33.107 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dteamcity_logs=/opt/teamcity/bin/../logs
+08-Feb-2024 17:56:33.108 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.awt.headless=true
+08-Feb-2024 17:56:33.108 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+08-Feb-2024 17:56:33.108 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/opt/teamcity
+08-Feb-2024 17:56:33.108 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/opt/teamcity
+08-Feb-2024 17:56:33.108 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/opt/teamcity/temp
+08-Feb-2024 17:56:33.121 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+08-Feb-2024 17:56:34.056 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8111"]
+08-Feb-2024 17:56:34.245 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1945] milliseconds
+08-Feb-2024 17:56:34.443 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+08-Feb-2024 17:56:34.444 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.75]
+08-Feb-2024 17:56:34.460 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/teamcity/webapps/ROOT]
+08-Feb-2024 17:56:54.186 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/teamcity/webapps/ROOT] has finished in [19,726] ms
+08-Feb-2024 17:56:54.194 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8111"]
+08-Feb-2024 17:56:54.282 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [20034] milliseconds
+08-Feb-2024 18:08:07.085 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+08-Feb-2024 18:08:07.090 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8111"]
+08-Feb-2024 18:08:07.091 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+08-Feb-2024 18:08:10.869 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [ROOT] registered the JDBC driver [org.hsqldb.jdbc.JDBCDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+08-Feb-2024 18:08:10.870 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [ROOT] registered the JDBC driver [org.hsqldb1.jdbcDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+08-Feb-2024 18:08:10.873 SEVERE [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [ROOT] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@f24a38a]) and a value of type [org.springframework.security.core.context.SecurityContextImpl] (value [SecurityContextImpl [Null authentication]]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+08-Feb-2024 18:08:10.878 SEVERE [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [ROOT] created a ThreadLocal with key of type [java.lang.ThreadLocal.SuppliedThreadLocal] (value [java.lang.ThreadLocal$SuppliedThreadLocal@5a3465b5]) and a value of type [org.apache.log4j.Level] (value [ERROR]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+08-Feb-2024 18:08:10.878 SEVERE [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [ROOT] created a ThreadLocal with key of type [java.lang.ThreadLocal.SuppliedThreadLocal] (value [java.lang.ThreadLocal$SuppliedThreadLocal@5a3465b5]) and a value of type [org.apache.log4j.Level] (value [ERROR]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+08-Feb-2024 18:08:10.879 SEVERE [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [ROOT] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@f24a38a]) and a value of type [org.springframework.security.core.context.SecurityContextImpl] (value [SecurityContextImpl [Null authentication]]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+08-Feb-2024 18:08:10.880 SEVERE [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [ROOT] created a ThreadLocal with key of type [java.lang.ThreadLocal.SuppliedThreadLocal] (value [java.lang.ThreadLocal$SuppliedThreadLocal@5a3465b5]) and a value of type [org.apache.log4j.Level] (value [ERROR]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+08-Feb-2024 18:08:10.881 SEVERE [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [ROOT] created a ThreadLocal with key of type [java.lang.ThreadLocal.SuppliedThreadLocal] (value [java.lang.ThreadLocal$SuppliedThreadLocal@5a3465b5]) and a value of type [org.apache.log4j.Level] (value [ERROR]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+08-Feb-2024 18:08:10.881 SEVERE [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [ROOT] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@f24a38a]) and a value of type [org.springframework.security.core.context.SecurityContextImpl] (value [SecurityContextImpl [Null authentication]]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+08-Feb-2024 18:08:10.893 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8111"]
+08-Feb-2024 18:08:10.903 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8111"]

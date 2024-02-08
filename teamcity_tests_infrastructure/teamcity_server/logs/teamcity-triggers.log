@@ -1,0 +1,6 @@
+[2024-02-08 18:04:08,450]   INFO - uildServer.TRIGGERS.vcsTrigger - TestMngPWyEAFi_TestMRnwpgXYAY: Initializing the VCS trigger state for 1 branches
+[2024-02-08 18:04:08,563]   INFO - uildServer.TRIGGERS.vcsTrigger - TestMngPWyEAFi_TestMRnwpgXYAY: Initializing the VCS trigger state for 1 branches
+[2024-02-08 18:04:08,637]   INFO - uildServer.TRIGGERS.vcsTrigger - TestMngPWyEAFi_TestMRnwpgXYAY: Trigger state changed: lastProcessedModId-<default>: -1 was: null
+[2024-02-08 18:04:08,637]   INFO - uildServer.TRIGGERS.vcsTrigger - TestMngPWyEAFi_TestMRnwpgXYAY: Trigger state changed: lastTriggeredBy-<default>: -1:118570 was: null
+[2024-02-08 18:04:28,922]   INFO - uildServer.TRIGGERS.vcsTrigger - TestMngPWyEAFi_TestMRnwpgXYAY: [sasha-lenya] The branch has not been known before
+[2024-02-08 18:04:28,936]   INFO - uildServer.TRIGGERS.vcsTrigger - TestMngPWyEAFi_TestMRnwpgXYAY: [sasha-lenya] Trigger state changed: lastTriggeredBy-sasha-lenya: -1:118570 was: null, lastProcessedModId-sasha-lenya: -1 was: null

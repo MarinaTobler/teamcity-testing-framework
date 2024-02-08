@@ -6,7 +6,7 @@ import com.example.teamcity.api.spec.Specifications;
 import org.testng.annotations.Test;
 
 public class BuildConfigurationTest extends BaseApiTest {
-    @Test
+    @Test(groups = {"Regression"})
     public void buildConfigurationTest() {
 // 1. Create project by auth user with generated data.
 // 2. Check created project has generated id.

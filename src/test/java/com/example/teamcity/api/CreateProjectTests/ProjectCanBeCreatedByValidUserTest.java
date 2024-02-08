@@ -8,7 +8,7 @@ import com.example.teamcity.api.spec.Specifications;
 import org.testng.annotations.Test;
 
 public class ProjectCanBeCreatedByValidUserTest extends BaseApiTest {
-    @Test
+    @Test(groups = {"Regression"})
     public void projectCanBeCreatedByValidUser() {
 
         var testData = testDataStorage.addTestData();
