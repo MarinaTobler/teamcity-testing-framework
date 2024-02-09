@@ -59,13 +59,10 @@ jobs:
           -p 8111:8111 \
           jetbrains/teamcity-server:2023.11.1
 
-#      - name: Set permission for mvn
-#        run: git update-index --chmod=+x mvnw
-#        run: chmod=+x mvnw
-
       - name: Set up TeamCity server
         # Настройка сервера при первом запуске (принятие лицензии, выбор базы данных и т.д.), реализованная в виде теста
         # run: ./mvnw clean test -Dtest=SetupFirstStartTest#setupTeamCityServerTest
+        # для windows надо без wrapper'a:
         run: mvn clean test -Dtest=SetupTest#startUpTest
 
       - name: Set up superUserToken environment variable
@@ -93,6 +90,8 @@ jobs:
       - name: Run tests
         # Указываем группу, чтобы еще раз не запустить тесты, которые использовались для сетапа сервера и агента
         # Здесь можно указать какие тесты запускать: по группам, по сьютам или какой-то конткретный тест
-        # run: ./mvn test -DsuiteXmlFile=testng-suites/api-suite.xml
+        # run: ./mvnw test -DsuiteXmlFile=testng-suites/api-suite.xml
         # run: ./mvnw test -DsuiteXmlFile=testng-suites/ui-suite.xml
-        run: ./mvnw test -Dgroups=Regression
+        # run: ./mvnw test -Dgroups=Regression
+        # для windows надо без wrapper'a:
+        run: mvn test -Dgroups=Regression
