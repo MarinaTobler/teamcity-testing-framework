@@ -31,12 +31,8 @@ jobs:
       # Добавляем в config.properties название браузера
       # -e: Этот флаг используется для интерпретации экранированных символов в строке. В данном случае, это позволяет
       # интерпретировать символ новой строки (\n) как перевод строки.
-      - name: Set up browser config property
-        run: echo -e "\nbrowser=firefox" >> src/main/resources/config.properties
-
-      # Добавляем в config.properties remote
-      - name: Set up remote config property
-        run: echo -e "\nremote=http://$HOST:4444/wd/hub" >> src/main/resources/config.properties
+      - name: Set up browser and remote config properties
+        run: echo -e "\nbrowser=firefox\nremote=http://$HOST:4444/wd/hub" >> src/main/resources/config.properties
 
       - name: Run Selenoid
         # Флаг -d запускает контейнер в фоновом режиме (так как, например, контейнер с сервером не имеет окончания, он просто всегда включен,
