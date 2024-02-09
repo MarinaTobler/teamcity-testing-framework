@@ -23,6 +23,17 @@ jobs:
       - name: Set up host config property
         run: echo "host=$HOST:8111" >> src/main/resources/config.properties
 
+      - name: Run Selenoid
+        # Флаг -d запускает контейнер в фоновом режиме (так как, например, контейнер с сервером не имеет окончания, он просто всегда включен,
+        # и если мы без этого флага в него перейдем, то никогда не сможем перешагнуть к следующему степу
+        run: |
+               docker run -d --name selenoid \
+               -v /var/run/docker.sock:/var/run/docker.sock \
+          #          -v $(pwd)/config/:/etc/selenoid/:ro \
+               -v $(pwd)/infra/:/etc/selenoid/:ro \
+               -p 4444:4444 \
+               aerokube/selenoid
+
       # Берём образ браузера (Chrome/Firefox/...) selenoid'a с docker hub
       # Здесь можно в цикле получить имена браузеров из browsers.json (см. setup_infra.sh) и скачать соответствующие образы
       - name: Pull Selenoid Chrome/Firefox/..
@@ -34,16 +45,7 @@ jobs:
       - name: Set up browser and remote config properties
         run: echo -e "\nbrowser=firefox\nremote=http://$HOST:4444/wd/hub" >> src/main/resources/config.properties
 
-      - name: Run Selenoid
-        # Флаг -d запускает контейнер в фоновом режиме (так как, например, контейнер с сервером не имеет окончания, он просто всегда включен,
-        # и если мы без этого флага в него перейдем, то никогда не сможем перешагнуть к следующему степу
-        run: |
-          docker run -d --name selenoid \
-          -v /var/run/docker.sock:/var/run/docker.sock \
-#          -v $(pwd)/config/:/etc/selenoid/:ro \
-          -v $(pwd)/infra/:/etc/selenoid/:ro \
-          -p 4444:4444 \
-          aerokube/selenoid
+
 
       # В этом степе нет смысла, так как через GitHub Actions нет доступа к Selenoid UI. Но зато это полезно при локальном запуске через act, для отладки
       - name: Run Selenoid UI
