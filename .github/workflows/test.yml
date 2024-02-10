@@ -96,11 +96,20 @@ jobs:
 #        # Не указываем clean, чтобы потом в итоговом репорте были и setup тесты
 #        run: ./mvnw test -Dtest=SetupFirstStartTest#setupTeamCityAgentTest
 
-      - name: Run tests
         # Указываем группу, чтобы еще раз не запустить тесты, которые использовались для сетапа сервера и агента
         # Здесь можно указать какие тесты запускать: по группам, по сьютам или какой-то конткретный тест
         # run: ./mvnw test -DsuiteXmlFile=testng-suites/api-suite.xml
         # run: ./mvnw test -DsuiteXmlFile=testng-suites/ui-suite.xml
         # run: ./mvnw test -Dgroups=Regression
-        # для windows надо без wrapper'a:
-        run: mvn test -Dgroups=Regression
+        #
+      - name: Run ui tests
+        # не работает, т.к. наверное, не все нужные тесты отмечены Regression:
+        # ошибка: java.lang.NullPointerException: Cannot invoke "com.example.teamcity.api.generators.TestDataStorage.addTestData()" because "this.testDataStorage" is null
+        #           	at com.example.teamcity.api.BuildConfigurationTest.buildConfigurationTest(BuildConfigurationTest.java:36)
+        # run: mvn test -Dgroups=Regression
+        run: mvn test -DsuiteXmlFile=testng-suites/ui-suite.xml
+        timeout-minutes: 30
+
+      - name: Run API tests
+        run: mvn test -DsuiteXmlFile=testng-suites/api-suite.xml
+        timeout-minutes: 30
