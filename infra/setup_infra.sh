@@ -110,7 +110,7 @@ docker run -d --name $selenoid_container_name \
 
 #для запуска selenoid должны быть скачаны все образы браузеров
 #спарсим имена образов браузеров из browsers.json по регулярному выражению и сложим их в список
-image_names=($(awk -F'"' '/"image": "/{print $4}' "$(pwd)/selenoid;C/browsers.json"))
+image_names=($(awk -F'"' '/"image": "/{print $4}' "$(pwd)/config/browsers.json"))
 
 echo "Pull all browser images: $image_names"
 #скачиваем соответсвующие образы
