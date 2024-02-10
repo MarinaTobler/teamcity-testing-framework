@@ -23,6 +23,11 @@ jobs:
       - name: Set up host config property
         run: echo "host=$HOST:8111" >> src/main/resources/config.properties
 
+      # Берём образ браузера (Chrome/Firefox/...) selenoid'a с docker hub
+      # Здесь можно в цикле получить имена браузеров из browsers.json (см. setup_infra.sh) и скачать соответствующие образы
+      - name: Pull Selenoid Chrome/Firefox/..
+        run: docker pull selenoid/vnc_firefox_89.0
+
       - name: Run Selenoid
         # Флаг -d запускает контейнер в фоновом режиме (так как, например, контейнер с сервером не имеет окончания, он просто всегда включен,
         # и если мы без этого флага в него перейдем, то никогда не сможем перешагнуть к следующему степу
@@ -32,11 +37,6 @@ jobs:
                -v $(pwd)/infra/:/etc/selenoid/:ro \
                -p 4444:4444 \
                aerokube/selenoid
-
-      # Берём образ браузера (Chrome/Firefox/...) selenoid'a с docker hub
-      # Здесь можно в цикле получить имена браузеров из browsers.json (см. setup_infra.sh) и скачать соответствующие образы
-      - name: Pull Selenoid Chrome/Firefox/..
-        run: docker pull selenoid/vnc_firefox_89.0
 
       # Добавляем в config.properties название браузера
       # -e: Этот флаг используется для интерпретации экранированных символов в строке. В данном случае, это позволяет
