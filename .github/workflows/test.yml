@@ -26,7 +26,6 @@ jobs:
       # Берём образ браузера (Chrome/Firefox/...) selenoid'a с docker hub
       # Здесь можно в цикле получить имена браузеров из browsers.json (см. setup_infra.sh) и скачать соответствующие образы
       - name: Pull Selenoid Chrome/Firefox/..
-#        run: docker pull selenoid/vnc_chrome:119.0
         run: docker pull selenoid/vnc:firefox_89.0
 
       - name: Run Selenoid
@@ -39,13 +38,11 @@ jobs:
                -p 4444:4444 \
                aerokube/selenoid
 
-      # Добавляем в config.properties название браузера
+      # Добавляем в config.properties название браузера и remote
       # -e: Этот флаг используется для интерпретации экранированных символов в строке. В данном случае, это позволяет
       # интерпретировать символ новой строки (\n) как перевод строки.
       - name: Set up browser and remote config properties
         run: echo -e "\nbrowser=firefox\nremote=http://$HOST:4444/wd/hub" >> src/main/resources/config.properties
-
-
 
       # В этом степе нет смысла, так как через GitHub Actions нет доступа к Selenoid UI. Но зато это полезно при локальном запуске через act, для отладки
       - name: Run Selenoid UI
@@ -100,16 +97,14 @@ jobs:
         # Здесь можно указать какие тесты запускать: по группам, по сьютам или какой-то конткретный тест
         # run: ./mvnw test -DsuiteXmlFile=testng-suites/api-suite.xml
         # run: ./mvnw test -DsuiteXmlFile=testng-suites/ui-suite.xml
-        # run: ./mvnw test -Dgroups=Regression
-        #
-      - name: Run ui tests
-        # не работает, т.к. наверное, не все нужные тесты отмечены Regression:
+        # run: mvn test -Dgroups=Regression - не работает, т.к. наверное, не все нужные тесты отмечены Regression:
         # ошибка: java.lang.NullPointerException: Cannot invoke "com.example.teamcity.api.generators.TestDataStorage.addTestData()" because "this.testDataStorage" is null
-        #           	at com.example.teamcity.api.BuildConfigurationTest.buildConfigurationTest(BuildConfigurationTest.java:36)
-        # run: mvn test -Dgroups=Regression
+        # at com.example.teamcity.api.BuildConfigurationTest.buildConfigurationTest(BuildConfigurationTest.java:36)
+
+      - name: Run ui tests
         run: mvn test -DsuiteXmlFile=testng-suites/ui-suite.xml
         timeout-minutes: 30
 
-      - name: Run API tests
+      - name: Run api tests
         run: mvn test -DsuiteXmlFile=testng-suites/api-suite.xml
         timeout-minutes: 30
