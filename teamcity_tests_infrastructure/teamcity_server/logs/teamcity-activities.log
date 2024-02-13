@@ -1,0 +1,42 @@
+[2024-02-08 17:59:37,279]   INFO - tbrains.buildServer.ACTIVITIES - Server Started
+[2024-02-08 18:00:36,295]   INFO - tbrains.buildServer.ACTIVITIES - New user created: user with id=1
+[2024-02-08 18:00:36,309]   INFO - s.buildServer.ACTIVITIES.AUDIT - user_create: User "user with id=1" was created by "user with id=1"
+[2024-02-08 18:00:36,417]   INFO - s.buildServer.ACTIVITIES.AUDIT - user_add_role: User role ""System administrator" {id=SYSTEM_ADMIN}" was added to "user with id=1" in "global" scope by "special user '' (Super user) {id=-42}"
+[2024-02-08 18:00:38,218]   INFO - s.buildServer.ACTIVITIES.AUDIT - project_create: Project "test_EEuFuKBQvB {id=test_tKSNQovoFm, internal id=project1}" was created by "user with id=1"
+[2024-02-08 18:00:42,411]   INFO - s.buildServer.ACTIVITIES.AUDIT - project_remove: Project "test_EEuFuKBQvB" was removed by "user with id=1"
+[2024-02-08 18:00:42,857]   INFO - s.buildServer.ACTIVITIES.AUDIT - user_delete: User "user with id=1" was deleted by "special user '' (Super user) {id=-42}"
+[2024-02-08 18:00:43,318]   INFO - tbrains.buildServer.ACTIVITIES - New user created: user with id=2
+[2024-02-08 18:00:43,321]   INFO - s.buildServer.ACTIVITIES.AUDIT - user_create: User "user with id=2" was created by "user with id=2"
+[2024-02-08 18:00:43,333]   INFO - s.buildServer.ACTIVITIES.AUDIT - user_add_role: User role ""System administrator" {id=SYSTEM_ADMIN}" was added to "user with id=2" in "global" scope by "special user '' (Super user) {id=-42}"
+[2024-02-08 18:01:40,987]   INFO - s.buildServer.ACTIVITIES.AUDIT - user_delete: User "user with id=2" was deleted by "special user '' (Super user) {id=-42}"
+[2024-02-08 18:01:41,251]   INFO - tbrains.buildServer.ACTIVITIES - New user created: user with id=3
+[2024-02-08 18:01:41,254]   INFO - s.buildServer.ACTIVITIES.AUDIT - user_create: User "user with id=3" was created by "user with id=3"
+[2024-02-08 18:01:41,260]   INFO - s.buildServer.ACTIVITIES.AUDIT - user_add_role: User role ""System administrator" {id=SYSTEM_ADMIN}" was added to "user with id=3" in "global" scope by "special user '' (Super user) {id=-42}"
+[2024-02-08 18:02:40,238]   INFO - s.buildServer.ACTIVITIES.AUDIT - user_delete: User "user with id=3" was deleted by "special user '' (Super user) {id=-42}"
+[2024-02-08 18:02:40,582]   INFO - tbrains.buildServer.ACTIVITIES - New user created: user with id=4
+[2024-02-08 18:02:40,583]   INFO - s.buildServer.ACTIVITIES.AUDIT - user_create: User "user with id=4" was created by "user with id=4"
+[2024-02-08 18:02:40,594]   INFO - s.buildServer.ACTIVITIES.AUDIT - user_add_role: User role ""System administrator" {id=SYSTEM_ADMIN}" was added to "user with id=4" in "global" scope by "special user '' (Super user) {id=-42}"
+[2024-02-08 18:03:13,349]   INFO - s.buildServer.ACTIVITIES.AUDIT - user_delete: User "user with id=4" was deleted by "special user '' (Super user) {id=-42}"
+[2024-02-08 18:03:40,785]   INFO - tbrains.buildServer.ACTIVITIES - New user created: user with id=5
+[2024-02-08 18:03:40,787]   INFO - s.buildServer.ACTIVITIES.AUDIT - user_create: User "user with id=5" was created by "user with id=5"
+[2024-02-08 18:03:40,793]   INFO - s.buildServer.ACTIVITIES.AUDIT - user_add_role: User role ""System administrator" {id=SYSTEM_ADMIN}" was added to "user with id=5" in "global" scope by "special user '' (Super user) {id=-42}"
+[2024-02-08 18:03:41,392]   INFO - s.buildServer.ACTIVITIES.AUDIT - project_create: Project "test_OsinGFqBoH {id=test_bvKndrdEmy, internal id=project2}" was created by "user with id=5"
+[2024-02-08 18:03:45,035]   INFO - s.buildServer.ACTIVITIES.AUDIT - project_remove: Project "test_OsinGFqBoH" was removed by "user with id=5"
+[2024-02-08 18:03:45,160]   INFO - s.buildServer.ACTIVITIES.AUDIT - user_delete: User "user with id=5" was deleted by "special user '' (Super user) {id=-42}"
+[2024-02-08 18:03:45,611]   INFO - tbrains.buildServer.ACTIVITIES - New user created: user with id=6
+[2024-02-08 18:03:45,613]   INFO - s.buildServer.ACTIVITIES.AUDIT - user_create: User "user with id=6" was created by "user with id=6"
+[2024-02-08 18:03:45,620]   INFO - s.buildServer.ACTIVITIES.AUDIT - user_add_role: User role ""System administrator" {id=SYSTEM_ADMIN}" was added to "user with id=6" in "global" scope by "special user '' (Super user) {id=-42}"
+[2024-02-08 18:04:07,656]   INFO - s.buildServer.ACTIVITIES.AUDIT - project_create: Project "test_mngPWyEAFi {id=TestMngPWyEAFi, internal id=project3}" was created by "user with id=6"
+[2024-02-08 18:04:07,692]   INFO - s.buildServer.ACTIVITIES.AUDIT - vcs_root_create: VCS root ""https://github.com/AlexPshe/spring-core-for-qa#refs/heads/master" {internal id=1, id=TestMngPWyEAFi_HttpsGithubComAlexPsheSpringCoreForQaRefsHeadsMaster, description: "https://github.com/AlexPshe/spring-core-for-qa#refs/heads/master"}" was created by "user with id=6" with comment "In project: test_mngPWyEAFi"
+[2024-02-08 18:04:08,055]   INFO - s.buildServer.ACTIVITIES.AUDIT - build_type_create: "test_mngPWyEAFi / test_mRnwpgXYAY {id=TestMngPWyEAFi_TestMRnwpgXYAY/bt1}" was created by "user with id=6"
+[2024-02-08 18:04:15,526]   INFO - s.buildServer.ACTIVITIES.AUDIT - user_delete: User "user with id=6" was deleted by "special user '' (Super user) {id=-42}"
+[2024-02-08 18:04:15,992]   INFO - tbrains.buildServer.ACTIVITIES - New user created: user with id=7
+[2024-02-08 18:04:15,995]   INFO - s.buildServer.ACTIVITIES.AUDIT - user_create: User "user with id=7" was created by "user with id=7"
+[2024-02-08 18:04:16,007]   INFO - s.buildServer.ACTIVITIES.AUDIT - user_add_role: User role ""System administrator" {id=SYSTEM_ADMIN}" was added to "user with id=7" in "global" scope by "special user '' (Super user) {id=-42}"
+[2024-02-08 18:04:31,631]   INFO - s.buildServer.ACTIVITIES.AUDIT - user_delete: User "user with id=7" was deleted by "special user '' (Super user) {id=-42}"
+[2024-02-08 18:04:31,808]   INFO - tbrains.buildServer.ACTIVITIES - New user created: user with id=8
+[2024-02-08 18:04:31,813]   INFO - s.buildServer.ACTIVITIES.AUDIT - user_create: User "user with id=8" was created by "user with id=8"
+[2024-02-08 18:04:31,828]   INFO - s.buildServer.ACTIVITIES.AUDIT - user_add_role: User role ""System administrator" {id=SYSTEM_ADMIN}" was added to "user with id=8" in "global" scope by "special user '' (Super user) {id=-42}"
+[2024-02-08 18:04:54,293]   INFO - s.buildServer.ACTIVITIES.AUDIT - user_delete: User "user with id=8" was deleted by "special user '' (Super user) {id=-42}"
+[2024-02-08 18:08:07,237]   INFO - tbrains.buildServer.ACTIVITIES - Spring components shutdown start...
+[2024-02-08 18:08:10,525]   INFO - tbrains.buildServer.ACTIVITIES - Spring components shutdown finished in 3s,288ms

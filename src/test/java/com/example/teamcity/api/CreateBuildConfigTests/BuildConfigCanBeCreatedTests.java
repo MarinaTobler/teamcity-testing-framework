@@ -11,7 +11,7 @@ import org.testng.annotations.Test;
 
 public class BuildConfigCanBeCreatedTests extends BaseApiTest {
 
-    @Test
+    @Test(groups = {"Regression"})
     public void buildConfigCanBeCreated() {
 
         var testData = testDataStorage.addTestData();
