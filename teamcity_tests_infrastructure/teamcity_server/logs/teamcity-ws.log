@@ -1,2 +1,0 @@
-[2024-02-08 17:57:36,764]   INFO [id: MAIN_SERVER] - etbrains.buildServer.WEBSOCKET - WebSocket feature is supported for Apache Tomcat/9.0.75
-[2024-02-08 18:04:55,206]   WARN [nio-8111-exec-3] - etbrains.buildServer.WEBSOCKET - Closing session 13: User logs out
