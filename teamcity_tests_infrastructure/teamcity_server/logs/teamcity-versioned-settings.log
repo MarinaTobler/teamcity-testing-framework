@@ -1,3 +1,0 @@
-[2024-02-08 17:59:34,194]   INFO - ings.CurrentVersionTrackerImpl - Reset current settings version of project(s): , reason: project settings were changed by config persisting tasks which were executed on startup
-[2024-02-08 18:00:42,305]   INFO - ings.CurrentVersionTrackerImpl - Reset current settings version of project(s): test_tKSNQovoFm, reason: project was removed
-[2024-02-08 18:03:45,022]   INFO - ings.CurrentVersionTrackerImpl - Reset current settings version of project(s): test_bvKndrdEmy, reason: project was removed
