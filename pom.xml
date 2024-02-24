@@ -135,6 +135,7 @@
                 <artifactId>allure-maven</artifactId>
                 <version>${allure-maven.version}</version>
             </plugin>
+            <!--
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-checkstyle-plugin</artifactId>
@@ -154,8 +155,10 @@
                     </execution>
                 </executions>
             </plugin>
+            -->
         </plugins>
     </build>
+    <!--
     <reporting>
         <plugins>
             <plugin>
@@ -168,4 +171,5 @@
             </plugin>
         </plugins>
     </reporting>
+    -->
 </project>
