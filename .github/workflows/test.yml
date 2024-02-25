@@ -105,9 +105,9 @@ jobs:
         run: mvn test -DsuiteXmlFile=testng-suites/ui-suite.xml
         timeout-minutes: 30
 
-#      - name: Run api tests
-#        run: mvn test -DsuiteXmlFile=testng-suites/api-suite.xml
-#        timeout-minutes: 30
+      - name: Run api tests
+        run: mvn test -DsuiteXmlFile=testng-suites/api-suite.xml
+        timeout-minutes: 30
 
       - name: Load test report history
         uses: actions/checkout@v4
