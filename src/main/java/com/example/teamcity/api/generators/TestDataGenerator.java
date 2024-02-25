@@ -10,6 +10,8 @@ import com.example.teamcity.api.models.User;
 import java.util.Arrays;
 
 public final class TestDataGenerator {
+    private TestDataGenerator() {
+    }
     public static TestData generate() {
         var user = User.builder()
                 .username(RandomData.getString())

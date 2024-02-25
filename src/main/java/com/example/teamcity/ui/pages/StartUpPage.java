@@ -17,18 +17,15 @@ import static com.codeborne.selenide.Selenide.element;
 public final class StartUpPage extends Page {
 
 
-    // 22:34
-
 //private static final String LOGIN_PAGE_URL = "/login.html";
 
     @Getter
-    private final SelenideElement
-                            proceedButton = $(byId("proceedButton")),
-                            acceptLicense = $(byId("accept")),
-                            restoreFromBackupButton = element("input[id='restoreButton']"),
-                         // backFileUploaded = element("password"),
-                            continueButton = $(byName("Continue")),
-                            header = $(byId("header"));
+    private final SelenideElement proceedButton = $(byId("proceedButton"));
+    private final SelenideElement acceptLicense = $(byId("accept"));
+    private final SelenideElement restoreFromBackupButton = element("input[id='restoreButton']");
+    // private final SelenideElement backFileUploaded = element("password");
+    private final SelenideElement continueButton = $(byName("Continue"));
+    private final SelenideElement header = $(byId("header"));
 
 
     public StartUpPage open() {

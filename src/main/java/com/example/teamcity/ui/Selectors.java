@@ -3,6 +3,8 @@ package com.example.teamcity.ui;
 import com.codeborne.selenide.selector.ByAttribute;
 
 public final class Selectors {
+    private Selectors() {
+    }
     public static ByAttribute byId(String value) {
         return new ByAttribute("id", value);
     }
