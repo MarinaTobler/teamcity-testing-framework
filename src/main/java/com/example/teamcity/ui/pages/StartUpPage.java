@@ -5,8 +5,6 @@ import com.codeborne.selenide.Selenide;
 import com.codeborne.selenide.SelenideElement;
 import lombok.Getter;
 
-import java.time.Duration;
-
 import static com.codeborne.selenide.Selectors.byId;
 import static com.codeborne.selenide.Selectors.byName;
 import static com.codeborne.selenide.Selenide.$;
