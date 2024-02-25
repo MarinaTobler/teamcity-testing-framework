@@ -16,11 +16,11 @@ public class User {
     private Roles roles;
 
 
-    public String getUsername() {
+    public final String getUsername() {
         return username;
     }
 
-    public String getPassword() {
+    public final String getPassword() {
         return password;
     }
 }

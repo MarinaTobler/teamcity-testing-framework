@@ -13,7 +13,7 @@ public class FavoritesPage extends Page {
 //  *  private SelenideElement header = element(Selectors.byClass("ProjectPageHeader__title--ih"));
     private SelenideElement header = $(byClassName("ProjectPageHeader__title--ih"));
 
-    public void waitUntilFavoritePageIsLoaded() {
+    public final void waitUntilFavoritePageIsLoaded() {
         waitUntilPageIsLoaded();
         header.shouldBe(Condition.visible, Duration.ofSeconds(10));
     }

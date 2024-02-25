@@ -14,7 +14,7 @@ import static com.codeborne.selenide.Selenide.element;
 
 
 @Getter
-public class StartUpPage extends Page {
+public final class StartUpPage extends Page {
 
 
     // 22:34

@@ -33,7 +33,7 @@ public class Config {
             throw new RuntimeException(e);
         }
     }
-    public static String getProperty (String key) {
+    public static String getProperty(String key) {
         return getConfig().properties.getProperty(key);
     }
 }

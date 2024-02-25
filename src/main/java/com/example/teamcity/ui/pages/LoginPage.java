@@ -8,7 +8,7 @@ import lombok.Getter;
 import static com.codeborne.selenide.Selectors.byId;
 import static com.codeborne.selenide.Selenide.$;
 @Getter
-public class LoginPage extends Page{
+public final class LoginPage extends Page {
 
     private static final String LOGIN_PAGE_URL = "/login.html";
 

@@ -1,11 +1,11 @@
 package com.example.teamcity.api.requests;
 
 public interface CrudInterface {
-    public Object create(Object obj);
+    Object create(Object obj);
 
-    public Object get(String id);
+    Object get(String id);
 
-    public Object update(String id, Object obj);
+    Object update(String id, Object obj);
 
-    public Object delete(String id);
+    Object delete(String id);
 }

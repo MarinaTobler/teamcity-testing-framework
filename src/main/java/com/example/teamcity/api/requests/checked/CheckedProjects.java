@@ -6,7 +6,7 @@ import com.example.teamcity.api.requests.unchecked.UncheckedProjects;
 import io.restassured.specification.RequestSpecification;
 import org.apache.http.HttpStatus;
 
-public class CheckedProjects extends Request {
+public final class CheckedProjects extends Request {
 
     public CheckedProjects(RequestSpecification spec) {
         super(spec);

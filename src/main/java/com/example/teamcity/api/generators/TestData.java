@@ -11,7 +11,7 @@ import lombok.Data;
 
 @Builder
 @Data
-public class TestData {
+public final class TestData {
     private User user;
     private NewProjectDescription project;
     private BuildType buildType;

@@ -55,6 +55,13 @@
         <property name="optional" value="true"/>
     </module>
 
+    <!-- To avoid checkstyle MagicNumber -->
+    <module name="SuppressionSingleFilter">
+        <property name="checks" value="MagicNumber" />
+        <property name="files"
+                  value="(JpaSomethingFactory|MyModelSomethingFactory).java" />
+    </module>
+
     <!-- Checks that a package-info.java file exists for each package.     -->
     <!-- See https://checkstyle.org/checks/javadoc/javadocpackage.html#JavadocPackage -->
     <!--<module name="JavadocPackage"/>-->

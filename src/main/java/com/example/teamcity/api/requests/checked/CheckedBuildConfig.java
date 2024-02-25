@@ -7,7 +7,7 @@ import com.example.teamcity.api.requests.unchecked.UncheckedBuildConfig;
 import io.restassured.specification.RequestSpecification;
 import org.apache.http.HttpStatus;
 
-public class CheckedBuildConfig extends Request implements CrudInterface {
+public final class CheckedBuildConfig extends Request implements CrudInterface {
     public CheckedBuildConfig(RequestSpecification spec) {
         super(spec);
     }
