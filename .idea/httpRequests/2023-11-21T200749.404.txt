@@ -1,3 +1,0 @@
-Responding with error, status code: 404 (Not Found).
-Details: jetbrains.buildServer.server.rest.errors.NotFoundException: No project found by locator 'count:1,id:MyProjectID'. Project cannot be found by external id 'MyProjectID'.
-Could not find the entity requested. Check the reference is correct and the user has permissions to access the entity.

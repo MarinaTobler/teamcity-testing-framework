@@ -1,2 +1,0 @@
-There is no administrator account on the server
-To login manually go to "/login.html" page
