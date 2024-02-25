@@ -1,0 +1,3 @@
+Responding with error, status code: 400 (Bad Request).
+Details: jetbrains.buildServer.serverSide.identifiers.DuplicateExternalIdException: The build configuration / template ID "id" is already used by another configuration or template
+Error occurred while processing this request.

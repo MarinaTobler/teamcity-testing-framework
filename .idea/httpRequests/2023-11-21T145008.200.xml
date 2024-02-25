@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<project id="id" name="name" parentProjectId="_Root" virtual="false" href="/app/rest/projects/id:id"
+         webUrl="http://localhost:8111/project.html?projectId=id">
+    <parentProject id="_Root" name="&lt;Root project&gt;" description="Contains all other projects"
+                   href="/app/rest/projects/id:_Root" webUrl="http://localhost:8111/project.html?projectId=_Root"/>
+    <buildTypes count="0"/>
+    <templates count="0"/>
+    <parameters count="0" href="/app/rest/projects/id:id/parameters"/>
+    <vcsRoots count="0" href="/app/rest/vcs-roots?locator=project:(id:id)"/>
+    <projectFeatures count="0" href="/app/rest/projects/id:id/projectFeatures"/>
+    <projects count="0"/>
+</project>

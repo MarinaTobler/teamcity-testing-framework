@@ -1,0 +1,13 @@
+com\example\teamcity\ui\BaseUiTest.class
+com\example\teamcity\api\CreateProjectTests\ProjectCanBeCreatedByValidUserTest.class
+com\example\teamcity\api\CreateProjectTests\ProjectInvalidNameTests.class
+com\example\teamcity\api\BaseTest.class
+com\example\teamcity\ui\CreateNewProjectTest.class
+com\example\teamcity\api\CreateBuildConfigTests\BuildConfigCanBeCreatedTests.class
+com\example\teamcity\api\BuildConfigurationTest.class
+com\example\teamcity\api\CreateProjectTests\ProjectValidNameTests.class
+com\example\teamcity\api\BaseApiTest.class
+com\example\teamcity\api\CreateProjectTests\ProjectInvalidIdTests.class
+com\example\teamcity\api\CreateProjectTests\ProjectValidIdTests.class
+com\example\teamcity\ui\SetupTest.class
+com\example\teamcity\api\RolesTest.class

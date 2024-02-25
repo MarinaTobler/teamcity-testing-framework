@@ -1,0 +1,24 @@
+-------------------------------------------------------------------------------
+Test set: com.example.teamcity.ui.SetupTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 46.48 s <<< FAILURE! - in com.example.teamcity.ui.SetupTest
+startUpTest(com.example.teamcity.ui.SetupTest)  Time elapsed: 31.524 s  <<< FAILURE!
+com.codeborne.selenide.ex.ElementNotFound: 
+Element not found {By.id: proceedButton}
+Expected: clickable: interactable and enabled
+Screenshot: file:/C:/Users/Marina/AquaProjects/teamcity-testing-framework/target/surefire-reports/1707550536573.0.png
+Page source: file:/C:/Users/Marina/AquaProjects/teamcity-testing-framework/target/surefire-reports/1707550536573.0.html
+Timeout: 4 s.
+Caused by: NoSuchElementException: Unable to locate element: #proceedButton
+	at com.example.teamcity.ui.SetupTest.startUpTest(SetupTest.java:12)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: #proceedButton
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [69b58052-890f-44f2-8627-7b1f6ad725d1, findElement {using=id, value=proceedButton}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 89.0, moz:accessibilityChecks: false, moz:buildID: 20210527174632, moz:debuggerAddress: localhost:46135, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 98, moz:profile: /tmp/rust_mozprofile5ghfFA, moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platformName: linux, platformVersion: 5.15.133.1-microsoft-standa..., se:cdp: ws://192.168.1.147:4444/dev..., setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept}
+Session ID: 69b58052-890f-44f2-8627-7b1f6ad725d1
+	at com.example.teamcity.ui.SetupTest.startUpTest(SetupTest.java:12)
+

@@ -1,0 +1,1034 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8e843166-a4ef-4f0d-b71e-66586c5fb3a3" name="Changes" comment="swagger-coverage-commandline is added">
+      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkstyle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/01abec99-4afd-4d32-be2c-9f0af961202c-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/0280fb41-2f44-4b34-ac5c-5a33189b3d63-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/03313baa-bd83-423d-90fd-602d0941e7b5-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/04924151-a791-443f-9eba-e0496105b428-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/0559e533-01a8-496c-b25f-373d71c1ffa0-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/0571281a-4024-4983-adca-80197176df18-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/05f1de81-2e2d-4cdb-ab23-7e286514a59b-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/06532f1a-1ea3-4ad6-9c47-21f9c2d7be8c-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/07ab1a40-fbf2-47b2-9542-4a88113e9e39-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/080aef8d-34a4-402d-ad06-5ce982f25651-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/08e08f64-b0cf-4305-877b-88cdc6f3ee4f-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/09aecce7-2579-4725-ab76-b29200b57b72-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/09b67417-a75e-4396-9336-fbedeeee38d7-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/0b9b2b6b-0503-48e6-9bbf-c525f4b30d76-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/0bfbe701-c7ca-4f2e-99fb-74a0e9812aae-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/0c293612-1608-464e-9611-85e19da0e9e4-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/0c73486b-a151-4983-a7cc-923563386963-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/0e7c3d3c-de72-466d-b590-a0d119aa7eb1-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/0fc199ba-7ee5-43bf-a7f1-bb43a1ac7ed4-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/1210b145-5b46-4119-bee1-d4b21233102a-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/12de8fe5-ad79-4a8c-83ec-2350500f4b0b-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/132c22d3-9fdf-479c-8d9f-e57f4de8721c-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/138bbe78-3204-4bd3-9a77-6561221057f3-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/1571f4a3-b28f-446f-a5e4-5175c85bac82-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/165a5930-6e95-4b23-ba70-6f30d6243070-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/17120f2a-a5cf-427f-8f56-6cf776636356-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/1952ebb9-4536-402d-8a5a-a9bf2d2bd6d0-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/19d2ec78-a7cc-405a-8579-5b653a53b701-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/1b560084-04a6-4404-a0fe-363d7e9dd868-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/1d62724a-4002-46ba-8b79-135d073245de-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/1e6d58d1-1121-4958-ba29-d256602a19bc-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/20fc44d8-b4ed-4126-ad56-117d61dc2fae-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/224a40e9-c512-4b6b-99e6-8af22bf5ce83-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/227ef963-d261-449d-aba0-1b21ad83aed5-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/23717a4d-8fd2-4d3d-b3fa-26ac615a7c4e-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/23d838ac-7937-473a-a125-f20120b3985f-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/24a96a22-925b-4467-bc7b-042e58cf4204-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/25b65f59-26b0-4c3c-a69d-dde602f32783-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/261f27c6-9218-4f8f-8f64-e3f311cc4262-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/28eea0e0-90c1-45ad-88cb-ac16c30bdc90-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/2a7a880b-4a36-441e-abaf-7faa99bf08dc-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/2c4488e1-6cbd-46ea-93bf-b6bd9f2a734b-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/2c530919-36c6-4406-93c0-9618e5599ebf-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/2c62d804-4b98-47ce-b98e-fc7ea44675d0-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/2c64cae9-6742-4858-be9c-345e6c163553-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/2dfda80b-3d72-483c-9127-07d2e916ec3f-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/2f627144-f09d-4676-968c-3d5f08eff16b-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/2f76e8e9-75cf-4e9a-94f0-6592f09c4bc6-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/30045f90-bb35-46f8-9134-d9a7a880f255-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/30dbd12d-fbde-44dc-ab5e-7514554d48e8-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/312fbac5-ec90-4f33-ac92-97aae96006c6-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/32276587-6d0c-46fe-aa33-66b08ef195ea-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/33d1fa63-1b1f-46bf-ac01-2db80a9a3edf-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/350b4661-52ab-4eb4-88f5-6fa1085bf94a-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/355abcd2-f386-4c88-917b-69aad25adfd6-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/35cea236-c8cc-4743-b1a4-e9ee052bbd47-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/36144596-0802-41b6-bca4-2a2a63fbb4c0-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/367d3cd2-94cf-4b73-8185-616075dbc74b-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/36a65df8-5fcc-4273-a98b-6cd2376cc163-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/372ba989-a76d-447e-83d2-5514d8eccbb5-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/37e93f4c-e3f1-4110-bb20-bb8739777356-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/38862e99-89d4-425c-8d56-c8193871516f-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/3a16a9cb-a9d4-44f0-8e72-dc1424ae4f29-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/3b63b276-4465-42d4-af07-92454749da8c-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/3be0446a-69e8-4ff7-b6df-168784e9e723-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/3d16dc5f-49f6-4464-839b-11ef7db6ac29-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/3eab99de-db0a-4fdb-b52b-cc94cc7a4196-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/414eea0d-3627-4139-8dae-b3e98df065f2-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/43cb3d99-83f0-4def-aba7-53be74c6a17f-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/44af7927-8acd-4f28-9531-38aa0ee2cf7b-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/4535761b-8a40-4795-ac36-2c701a99c678-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/45484759-ca97-42e5-9ba3-6f2c783d8124-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/48233971-7bf7-4e44-8dbd-b0347e26fbac-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/4836ddc9-401c-42fe-a74f-546c35b32a1c-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/48652d6b-d08a-47e2-8350-d5965c550032-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/48fcf284-3744-400a-be11-9ae67912de51-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/4957187c-12bb-4e74-97cc-b0aadef2bfa6-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/497df707-78fd-41e2-b003-3e28df9a8f01-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/49893ff4-5420-434b-8f0a-513f09c6c639-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/4dcbee7f-1512-48d7-a18a-5b534a282d8a-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/4f2572d8-8f45-4d5c-9d4f-6d30098bd925-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/4f4c1c3f-bd5a-4312-b82b-02a172195d66-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/5512825b-90b7-463c-8339-aeb4832bca31-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/55582c6b-a1ef-4b2d-8834-e5a5f37188e6-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/57373663-bf6d-4b77-b90c-41695047e6ff-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/57b9b833-5bbf-48f2-9aef-909a1d2c8813-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/57be1aa8-3d3f-4894-87ed-47f1fb2edd23-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/57ccfa91-2fad-44dc-af3f-732e2fe7dadc-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/58056dbf-9666-4d8a-8d2d-f3a60965c617-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/5ac83756-5a02-45f3-b22f-2496194c8e7b-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/5af57834-4c97-4acb-9ad4-2b11e68fb95e-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/5b40190d-ebe3-4e5e-a823-a1860ec3cc7f-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/5b6bc692-96cf-496e-b123-940977d10a67-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/5ef84acb-29f9-4567-905a-a74d8026741e-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/5f7ec6a3-49a7-47ce-b601-bc81ecaaf0cb-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/5fda147a-d77b-40a7-8990-8cfa79d92715-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/614885ca-a263-4b33-8165-fb14a22f571c-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/6304e469-58d1-4bcc-8d58-010db1479ea0-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/644b161b-cae5-4701-9ee4-0300135d57fd-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/644c2a6c-cf9e-42be-ab49-861e9e656d97-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/64cc36af-e7b3-4741-81f3-6f6cdeed9e34-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/657ffa0f-3a44-474f-8b68-6c0ea985bccc-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/66ae3dc1-ff5b-4a34-b2cd-291cfe079ef3-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/66ef17bc-2edc-48e2-b54d-902fdbc6a7b2-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/66f6a8c3-a50f-4d4d-9ae7-c22d8adcff84-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/67e20f49-38d0-4266-b84f-1774cbe58959-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/6a21d84b-968a-4771-94eb-68d2da05447c-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/6a82be5e-dded-4877-b206-573a3d4676a7-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/6bd33ed3-6b39-4bff-8893-4c3398decad9-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/6bef8f9e-faf8-4296-a8dc-82ee99a7d7df-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/6c9666d9-26fc-4ee1-a102-663a3ff4c31e-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/6d41a95d-5709-48ea-b0c6-650061b03257-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/6e30d1e5-f5b5-407c-bd8a-61ead6549c8f-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/6e552eb7-1df1-4f2a-a119-f81a7c983d0e-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/6ea29362-3a38-427f-9d2c-aee2e19ac4d9-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/6f80966b-125d-4e01-88e7-312888e5581c-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/6fa2f3df-8a18-46a9-99a5-1bfbf36a14d7-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/70bfa2ef-8db6-4151-9870-ba00687fbd04-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/736f3f3d-e30e-40fc-9a37-44a982599ad5-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/746cf07c-c322-4c1a-8ccb-b08a0df37aee-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/753470dc-892c-4957-ad18-fbd2004c2120-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/76672bbc-c7dc-4336-9eec-89a102a7cdb3-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/7734f58f-fc21-40a3-a530-a67376e3449a-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/77de23e6-5721-4972-973e-1ab35f276205-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/7912b3dc-cc37-4fa0-afc8-585dc1e55c11-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/7b789262-a395-4b61-a6a7-dc04459ab4e1-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/7b792eb8-3615-43bf-8e26-cf1a8843638c-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/7c301a12-7cbf-4576-83dc-f0d9af6b4407-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/7c97a1be-3087-4096-aa6c-4d619e50963d-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/7c98e1ee-7013-4609-bab4-9f2fde5b56cb-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/7ca12b01-37a1-4a33-90ad-d615602dc5f4-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/7e685c0d-7479-4967-8067-bfb63b9603fc-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/7fdb7187-a87a-4ff5-bac1-3521fdcbff36-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/80e3ad76-561c-4c5b-b197-eda4bd33d362-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/816da9c6-243d-4d5d-88a3-2228775812c0-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/8186fd5f-30c5-469b-a42c-3ee459cdc8af-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/829ec6ee-013b-49f1-ad65-ddfa9c8c41ec-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/83d8862e-a792-495a-8f3e-04b6558f431f-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/83ed74e2-6468-4581-b1ab-c5a7e10bb7e5-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/84eed247-217f-401a-9504-f5ef984301f0-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/85570eef-ce9e-417a-820e-2f1d6d607499-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/86bd25dc-f79d-4587-8c5c-1bf1e619af1f-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/872b96e6-66c8-4cd2-a31c-be50617f10d4-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/87765ad3-b47a-4004-bdc7-5250798d7d61-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/88534430-5667-4c66-9cb7-58e6fb02035e-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/8b13a4e5-29eb-4b1e-b74c-266e8d737018-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/8b5a9dfc-6b62-45c0-a914-6e4fe1ccd7ce-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/904833dd-f3f7-4b10-a339-aa13972ad186-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/92f9286f-c61c-449c-954b-60497440cc9f-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/934ba3aa-4300-41d5-bc80-b4ebf6426b88-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/946b23ba-8670-4c77-81db-405261e843fe-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/94d3f3fd-a2dc-42d5-91b5-cbda90cb66c6-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/9645e773-3fa4-461d-a821-82a1d9fee2a8-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/97b0a4cf-4bea-4179-9c75-42ef65106a2e-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/97e5f6a1-a8d9-43af-8c59-4128d658aa2b-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/98c04d3c-92aa-4d36-b218-a059cb7dad6a-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/9a67fd92-27ca-4c3c-b0ab-1be53efe0fbc-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/9aa12136-deea-4e1e-8752-38ed1a86a805-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/9b21f1b6-e36c-4874-9250-5d1d5269b626-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/9c70f45d-27f0-479c-b599-be019106b629-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/9cac2b9a-ab7d-4061-9a04-2b5bc4ef4111-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/9cb961bc-bd09-467f-91aa-5fde2c78dabf-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/9e1ce908-c053-43c7-8cc3-6dce900f86cb-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/9ea7ce51-0b2b-4e16-bef2-c8194fd2f272-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/a046d277-78c8-4bab-8d1b-e86ebc742599-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/a4c82cd3-64fc-4ca9-9d41-d4488f09e4cd-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/a4e03d2c-44a7-43d7-88ee-dc4830f9c4c5-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/a700e8fb-9e55-4b13-922b-c42e4dc99858-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/a750f555-075f-402a-b073-bb1091b4981b-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/aa305b81-3905-48ea-8ae2-d00d243923a7-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/ab4455a3-4ca4-4724-872b-9dcba94975f0-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/ac489ee9-7b47-4be7-80f1-fe4d1a100bfe-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/ad5876ad-e4cb-4d12-80a0-7545e0631f09-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/b0ff1c50-2cbf-4d2b-9bd4-0182ba795b2e-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/b30e5075-4d6b-45ec-826d-0f2d4e04ece0-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/b3499a7c-0b7d-4817-ab53-39f4b186f966-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/b46d263d-094f-4fa1-9125-3dd0675e78a9-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/b4853ff3-76c8-42b6-8896-88adc8b888ac-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/b4955814-f543-4a67-b30e-c3aa58445557-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/b5856851-e8d7-406d-be36-97aa58f0a9be-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/b5fd6037-b5ac-4be0-840f-4752c52f8771-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/b63a15c9-c32f-46b8-a0dc-ae2e490b4395-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/b72330ee-ef16-4f17-b0c8-290a0686758c-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/b73a6600-401c-4963-8457-5fecccca6ae1-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/b7f3e4e4-a86d-45b7-b750-26e4ba127a6c-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/b92c6b65-3f85-417a-9e26-1d617578e7ac-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/ba311cd4-abf0-4e49-9918-dc8beba461ab-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/ba6475ae-21dc-4412-8540-4578ed320418-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/c0ec93c7-3c30-49a4-865d-b8e4339d80a6-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/c12c6dd7-0a06-4b5b-a1cb-b9d428d7ed84-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/c31d8df4-b0d4-4e90-9cbb-2ce2d1262bb1-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/c320bebd-35b5-4da9-922f-bdadd498fb8e-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/c3caf057-7c9d-45c5-bd1b-d2f236214e1a-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/c458fa3a-f76b-4fbc-97f6-0c39c1fd3ce6-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/c4e6eaa7-6a60-413a-b6a3-51f9b3e47bd9-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/c58f6518-9fd1-4f42-87a5-f09120d222e6-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/c75edfd6-3095-4f7c-ae84-9798a4e06fac-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/c898e98c-028e-4556-874a-81a286cc72ab-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/c8b8494a-4173-4453-9f78-0f943a78391a-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/c9ca0205-9b5b-49d4-9746-697e86b3b79c-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/ca80e30b-b40b-493a-84a6-3bb3d475b708-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/cad8db17-d38d-4d50-ab77-9d6694da8656-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/cba93aef-f934-4cff-97bc-21f61d166ecb-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/cc34b302-b5d0-460a-9823-ed9112d1fd7c-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/cf79bb3a-ebfd-4659-9c25-043ab6b9084c-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/d01f9205-c04e-48fe-9bc8-f51dddea8a9d-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/d0f8fed1-333d-40f9-b5e5-050a049fd81f-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/d40cca99-466d-461e-80d0-d7679ea54dd8-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/d420c9c5-1bcc-4e9b-84ed-829ddaaecf09-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/d4ea6c6c-91ac-4a38-93d2-a4d3ba3fe564-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/d7074e41-ed65-4501-a776-dec49ad3c42d-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/d71cdb65-a8fe-4565-8b89-111596f27109-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/d80dcce2-7581-4ea6-9a31-dfee3ed564f5-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/d8b14ab4-aa60-496d-b371-ab5ebc6abe7c-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/d8bda800-3b94-4b7b-87ab-d72d9eb719b1-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/d9304508-5bec-49db-b08b-35afa11da3cc-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/d9fdbad8-d519-4a23-b9f4-6eb2f9db0ef7-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/da16907b-a609-4524-9d57-88f42579d09a-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/da64efb8-b220-47f6-9285-2e99afb901f9-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/dbc0d21b-87fa-4253-8a81-bd1155ca98e5-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/dd1d8e35-2528-4cec-bb53-41c4a3d2ada1-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/de132c5e-43b1-44a9-8c99-7ec8537f1a7a-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/dff38079-9f11-4996-af2b-fe6b4c4b7c73-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/e11fb479-9932-4007-a8f6-8bb09e85fc73-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/e1f1c681-5e7e-48ab-8152-66d147f97082-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/e326a6f5-6e4d-46f1-a261-f2e650d77b4b-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/e3c58d84-a09d-4498-be1d-330d7a51e69d-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/e469d24d-7076-45b0-8195-93c46aa95d3c-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/e4c0fbdf-b255-4a11-b7cf-c39a7f2a5aa2-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/e5b16a66-318b-433b-9223-cfe69f52890c-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/e68a9301-0249-442e-9810-eb6f06f7e390-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/e6cac7ea-0ca2-4f2b-a4d2-91529f39b7cc-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/e7763421-263c-4068-8d66-3e9e75da87f9-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/e8240c4f-064f-4ed4-8b6c-8e6685672f4f-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/e8a721b6-5154-4361-8793-ae07ccb7fda7-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/e9414876-c260-4907-b381-2c572ad46db0-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/e9875464-c3ae-45b1-b8c7-b7a5bbbb25da-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/eba0f913-db71-4548-8cf5-4aa12a5f246f-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/ee70b8c4-a181-4fb4-8315-b4f35371db90-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/ef569045-d3da-4323-a4e3-3ed1bc3a038d-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/f001b2ae-2171-46f2-bb9a-b23545eaab59-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/f02be635-8fd0-494f-8049-88149fc0147e-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/f0de5330-da3f-4ad1-a5ba-f1b184b856c5-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/f21b1791-2585-4351-82f9-cd3ce60e5b94-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/f2a6935c-d86a-470a-abe2-e27d2a2a55c2-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/f4240f74-4227-4bbf-b8f0-f7f47ca13180-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/f46c666c-cc7f-42db-950d-5b037e74b11b-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/f72463fc-1996-42fe-a300-5ce5426f9262-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/f76028bb-5e25-4b54-a253-92aa10eb6988-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/f7b6cafa-d246-4a9c-85b0-464f51d15f3a-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/f7bbc8ec-8ca5-42db-904e-5b8ea5c9242f-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/f8a37802-cea9-404b-9fb4-efcaa0c5ca98-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/f9887ff6-4def-40ab-b58b-8cf7b9e13fd3-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/f99c877b-8e06-41c5-9198-ba19fbb1d30f-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/f9af68f8-9e15-4b70-a0ad-57d8574b0ffd-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/f9d2e7e4-a537-4dd8-85b4-c4cc70ff85f8-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/fa61a50a-4329-46d0-ac6e-9dadc24293c6-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/fb995295-152f-42a6-b5dc-7c5ebd7a90eb-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/fc0bd647-0c3a-47f5-8006-22a602d4b2a1-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/fc892ba7-4f3d-4592-a465-d598a39b9283-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/teamcity/api/spec/Specifications.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/teamcity/api/spec/Specifications.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+      <option value="module" />
+    </option>
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2YU2Wsbih3LS52X5iRvVsxr4HKk" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;HTTP Request.buildConfigurationTest | #1.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.buildConfigurationTest | #2.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.buildConfigurationTest | 0. Generate auth token.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.buildConfigurationTest | 2. Create build configuration.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.buildConfigurationTest | 3. Run build.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.buildConfigurationTest | 4. Check build status.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.getRequests | #1.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.teamcity-testing-framework [test].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;TestNG.BuildConfigCanBeCreatedTests.buildConfigCanBeCreated.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.BuildConfigurationTest.buildConfigurationTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.BuildConfigurationTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.CreateNewProjectTest.authorizedUserShouldBeAbleCreateNewProject.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.CreateNewProjectTest.authorizedUserShouldNotBeAbleCreateNewProjectWithoutBuildConfigName.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.CreateNewProjectTest.authorizedUserShouldNotBeAbleCreateNewProjectWithoutName.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.CreateNewProjectTest.authorizedUserShouldNotBeAbleCreateNewProjectWithoutProjectName.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.CreateNewProjectTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.CreateProjectTests.createProjectTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.CreateProjectTests.createProjectTest2.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.CreateProjectTests.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.CreateProjectTests.projectCouldBeCreatedBySuperUser.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.ProjectCanBeCreatedByValidUserTest.projectCanBeCreatedByValidUser.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.ProjectIdTests.NegativeProjectIdTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.ProjectIdTests.NegativeProjectIdTestEP20.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.ProjectIdTests.positiveProjectIdTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.ProjectIdTests.projectIdTestEP1a.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.ProjectIdTests.projectIdTestEP1aBySuperUser.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.ProjectIdTests.projectIdTestEP20.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.ProjectIdTests.projectIdTestWithValidId.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.ProjectInvalidIdTests.NegativeProjectIdTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.ProjectInvalidIdTests.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.ProjectInvalidNameTests.NegativeProjectNameTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.ProjectInvalidNameTests.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.ProjectInvalidNameTests.projectWithEmptyName.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.ProjectValidIdTests.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.ProjectValidIdTests.positiveProjectIdTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.ProjectValidNameTests.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.ProjectValidNameTests.positiveProjectNameTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.ProjectValidNameTests.uniqueNameProjectTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.RolesTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.RolesTest.projectAdminShouldHaveRightsToCreateBuildConfigToHisProject.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.RolesTest.projectAdminShouldNotHaveRightsToCreateBuildConfigToAnotherProject.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.RolesTest.projectAdminTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.RolesTest.systemAdminShouldHaveRightsToCreateProject.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.RolesTest.systemAdminTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.RolesTest.unauthorizedUser.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.RolesTest.unauthorizedUserShouldNotHaveRightToCreateProject.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.SetupTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.SetupTest.startUpTest.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Hometask-4&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Marina/AquaProjects/teamcity-testing-framework&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;settings.editor.splitter.proportion&quot;: &quot;0.3744923&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.example.teamcity.ui.elements" />
+      <recent name="com.example.teamcity.api.generators" />
+      <recent name="com.example.teamcity.api.models" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Marina\AquaProjects\teamcity-testing-framework\src\test\java\com\example\teamcity\api\CreateProjectTests\createBildConfigurationTests" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Marina\AquaProjects\teamcity-testing-framework" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.teamcity.api.models" />
+      <recent name="com.example.teamcity.api.CreateProjectTests" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.BuildConfigCanBeCreatedTests.buildConfigCanBeCreated">
+    <configuration name="BuildConfigCanBeCreatedTests.buildConfigCanBeCreated" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="teamcity-testing-framework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.teamcity.api.CreateBuildConfigTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.teamcity.api.CreateBuildConfigTests" />
+      <option name="MAIN_CLASS_NAME" value="com.example.teamcity.api.CreateBuildConfigTests.BuildConfigCanBeCreatedTests" />
+      <option name="METHOD_NAME" value="buildConfigCanBeCreated" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProjectInvalidNameTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="teamcity-testing-framework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.teamcity.api.CreateProjectTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.teamcity.api.CreateProjectTests" />
+      <option name="MAIN_CLASS_NAME" value="com.example.teamcity.api.CreateProjectTests.ProjectInvalidNameTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProjectInvalidNameTests.emptyNameProjectTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="teamcity-testing-framework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.teamcity.api.CreateProjectTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.teamcity.api.CreateProjectTests" />
+      <option name="MAIN_CLASS_NAME" value="com.example.teamcity.api.CreateProjectTests.ProjectInvalidNameTests" />
+      <option name="METHOD_NAME" value="emptyNameProjectTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProjectValidNameTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="teamcity-testing-framework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.teamcity.api.CreateProjectTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.teamcity.api.CreateProjectTests" />
+      <option name="MAIN_CLASS_NAME" value="com.example.teamcity.api.CreateProjectTests.ProjectValidNameTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProjectValidNameTests.uniqueNameProjectTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="teamcity-testing-framework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.teamcity.api.CreateProjectTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.teamcity.api.CreateProjectTests" />
+      <option name="MAIN_CLASS_NAME" value="com.example.teamcity.api.CreateProjectTests.ProjectValidNameTests" />
+      <option name="METHOD_NAME" value="uniqueNameProjectTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.ProjectValidNameTests.uniqueNameProjectTest" />
+        <item itemvalue="TestNG.ProjectValidNameTests" />
+        <item itemvalue="TestNG.ProjectInvalidNameTests.emptyNameProjectTest" />
+        <item itemvalue="TestNG.ProjectInvalidNameTests" />
+        <item itemvalue="TestNG.BuildConfigCanBeCreatedTests.buildConfigCanBeCreated" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SeleniumInternalSettingsState">
+    <option name="lastFrameworkName" value="Selenide" />
+    <option name="lastLanguageId" value="JAVA" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8e843166-a4ef-4f0d-b71e-66586c5fb3a3" name="Changes" comment="" />
+      <created>1700565875318</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1700565875318</updated>
+      <workItem from="1700565876255" duration="648000" />
+      <workItem from="1700566541524" duration="126325000" />
+      <workItem from="1701548602661" duration="83000" />
+      <workItem from="1701592265731" duration="508000" />
+      <workItem from="1701604175065" duration="12555000" />
+      <workItem from="1701620339513" duration="65169000" />
+      <workItem from="1702019455160" duration="30460000" />
+      <workItem from="1702196722690" duration="35087000" />
+      <workItem from="1702555868433" duration="83191000" />
+      <workItem from="1704802697430" duration="6000" />
+      <workItem from="1704903147463" duration="213000" />
+      <workItem from="1704903382214" duration="720000" />
+      <workItem from="1706464031321" duration="2671000" />
+      <workItem from="1706867105186" duration="1398000" />
+      <workItem from="1706876099553" duration="137000" />
+      <workItem from="1706876250686" duration="13395000" />
+      <workItem from="1706978745935" duration="14132000" />
+      <workItem from="1707036445247" duration="14360000" />
+      <workItem from="1707055485411" duration="23373000" />
+      <workItem from="1707131739516" duration="3229000" />
+      <workItem from="1707136781557" duration="41406000" />
+      <workItem from="1707518229945" duration="10642000" />
+      <workItem from="1707840555809" duration="2066000" />
+      <workItem from="1708759586990" duration="90000" />
+      <workItem from="1708761034200" duration="181000" />
+      <workItem from="1708761235463" duration="6714000" />
+      <workItem from="1708768623358" duration="6122000" />
+      <workItem from="1708782559933" duration="4079000" />
+    </task>
+    <task id="LOCAL-00002" summary="build SYSTEM_ADMIN user is updated in systemAdminShouldHaveRightsToCreateProject()">
+      <option name="closed" value="true" />
+      <created>1701016495620</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1701016495620</updated>
+    </task>
+    <task id="LOCAL-00003" summary="lesson 1.12">
+      <option name="closed" value="true" />
+      <created>1701289385561</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1701289385561</updated>
+    </task>
+    <task id="LOCAL-00004" summary="directory allure-results is added to .gitignore">
+      <option name="closed" value="true" />
+      <created>1701619806277</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1701619806277</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Add allure-results to .gitignore">
+      <option name="closed" value="true" />
+      <created>1701620281009</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1701620281009</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Change host (ip address) and superUserToken">
+      <option name="closed" value="true" />
+      <created>1701620454114</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1701620454114</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Change host (ip address)">
+      <option name="closed" value="true" />
+      <created>1701620582962</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1701620582962</updated>
+    </task>
+    <task id="LOCAL-00008" summary="swagger.json is added to the project">
+      <option name="closed" value="true" />
+      <created>1701620809378</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1701620809378</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Added update and get">
+      <option name="closed" value="true" />
+      <created>1701621006037</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1701621006037</updated>
+    </task>
+    <task id="LOCAL-00010" summary="delete user by superUser (fixed)">
+      <option name="closed" value="true" />
+      <created>1701621096493</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1701621096494</updated>
+    </task>
+    <task id="LOCAL-00011" summary="get and update is added to CheckedBuildConfig">
+      <option name="closed" value="true" />
+      <created>1701621161844</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1701621161844</updated>
+    </task>
+    <task id="LOCAL-00012" summary="create project by unauth user is fixed">
+      <option name="closed" value="true" />
+      <created>1701621436412</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1701621436412</updated>
+    </task>
+    <task id="LOCAL-00013" summary="delete user for CheckedUser is fixed (is changed to delete by superUser)">
+      <option name="closed" value="true" />
+      <created>1701626698883</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1701626698883</updated>
+    </task>
+    <task id="LOCAL-00014" summary="hometask-1: create project and build config tests">
+      <option name="closed" value="true" />
+      <created>1701764858751</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1701764858751</updated>
+    </task>
+    <task id="LOCAL-00015" summary="lesson 2.6 and 2.7">
+      <option name="closed" value="true" />
+      <created>1702389828193</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1702389828195</updated>
+    </task>
+    <task id="LOCAL-00016" summary="ProjectCanBeCreatedByValidUserTest is updated">
+      <option name="closed" value="true" />
+      <created>1702628834968</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1702628834969</updated>
+    </task>
+    <task id="LOCAL-00017" summary="config.properties is updated">
+      <option name="closed" value="true" />
+      <created>1702628919607</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1702628919607</updated>
+    </task>
+    <task id="LOCAL-00018" summary="comment is added">
+      <option name="closed" value="true" />
+      <created>1702853720612</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1702853720612</updated>
+    </task>
+    <task id="LOCAL-00019" summary="hometask-2-ui-tests">
+      <option name="closed" value="true" />
+      <created>1702853859705</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1702853859705</updated>
+    </task>
+    <task id="LOCAL-00020" summary="hometask-2-ui-tests additional solution is added">
+      <option name="closed" value="true" />
+      <created>1706466438930</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1706466438930</updated>
+    </task>
+    <task id="LOCAL-00021" summary="hometask-3">
+      <option name="closed" value="true" />
+      <created>1707416192792</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1707416192793</updated>
+    </task>
+    <task id="LOCAL-00022" summary="hometask-3 warning Schema validation is fixed">
+      <option name="closed" value="true" />
+      <created>1707416802482</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1707416802482</updated>
+    </task>
+    <task id="LOCAL-00023" summary="resolving error: ./mvnw: Permission denied">
+      <option name="closed" value="true" />
+      <created>1707424786083</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1707424786083</updated>
+    </task>
+    <task id="LOCAL-00024" summary="resolving error: Unable to find image 'jetbrains/teamcity-server:2023.11.' locally">
+      <option name="closed" value="true" />
+      <created>1707426331475</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1707426331475</updated>
+    </task>
+    <task id="LOCAL-00025" summary="resolving error: Unable to find image 'jetbrains/teamcity-server:2023.11.' locally">
+      <option name="closed" value="true" />
+      <created>1707457835300</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1707457835300</updated>
+    </task>
+    <task id="LOCAL-00026" summary="resolving error: ./mvnw: Permission denied">
+      <option name="closed" value="true" />
+      <created>1707458259574</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1707458259574</updated>
+    </task>
+    <task id="LOCAL-00027" summary="resolving error: ./mvnw: Permission denied">
+      <option name="closed" value="true" />
+      <created>1707458471054</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1707458471054</updated>
+    </task>
+    <task id="LOCAL-00028" summary="resolving error: ./mvnw: Permission denied">
+      <option name="closed" value="true" />
+      <created>1707458651858</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1707458651858</updated>
+    </task>
+    <task id="LOCAL-00029" summary="resolving error: ./mvnw: Permission denied">
+      <option name="closed" value="true" />
+      <created>1707460148833</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1707460148833</updated>
+    </task>
+    <task id="LOCAL-00030" summary="resolving error: ./mvnw: Permission denied">
+      <option name="closed" value="true" />
+      <created>1707460288409</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1707460288409</updated>
+    </task>
+    <task id="LOCAL-00031" summary="resolving error: ./mvnw: Permission denied">
+      <option name="closed" value="true" />
+      <created>1707463251284</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1707463251285</updated>
+    </task>
+    <task id="LOCAL-00032" summary="resolving error: ./mvnw: Permission denied, Run with mvn">
+      <option name="closed" value="true" />
+      <created>1707463565181</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1707463565181</updated>
+    </task>
+    <task id="LOCAL-00033" summary="resolving error: ./mvnw: Permission denied - explaining commits added">
+      <option name="closed" value="true" />
+      <created>1707465405891</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1707465405891</updated>
+    </task>
+    <task id="LOCAL-00034" summary="resolving: no super_user_token">
+      <option name="closed" value="true" />
+      <created>1707516598223</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1707516598223</updated>
+    </task>
+    <task id="LOCAL-00035" summary="resolving: You have an error in your yaml syntax on line 41">
+      <option name="closed" value="true" />
+      <created>1707517023076</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1707517023076</updated>
+    </task>
+    <task id="LOCAL-00036" summary="resolving: You have an error in your yaml syntax on line 40">
+      <option name="closed" value="true" />
+      <created>1707517912489</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1707517912489</updated>
+    </task>
+    <task id="LOCAL-00037" summary="resolving: You have an error in your yaml syntax on line 40">
+      <option name="closed" value="true" />
+      <created>1707518046901</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1707518046901</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Set up browser and remote config properties">
+      <option name="closed" value="true" />
+      <created>1707518630120</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1707518630120</updated>
+    </task>
+    <task id="LOCAL-00039" summary="resolving error in yaml syntax on line 36">
+      <option name="closed" value="true" />
+      <created>1707518995783</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1707518995783</updated>
+    </task>
+    <task id="LOCAL-00040" summary="resolving error in yaml syntax on line 25">
+      <option name="closed" value="true" />
+      <created>1707519104374</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1707519104374</updated>
+    </task>
+    <task id="LOCAL-00041" summary="resolving Error response from daemon: pull access denied for selenoid/vnc_firefox_89.0, repository does not exist or may require 'docker login'">
+      <option name="closed" value="true" />
+      <created>1707546603676</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1707546603676</updated>
+    </task>
+    <task id="LOCAL-00042" summary="resolving Error response from daemon: pull access denied for selenoid/vnc_firefox_89.0, repository does not exist or may require 'docker login'">
+      <option name="closed" value="true" />
+      <created>1707546858875</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1707546858875</updated>
+    </task>
+    <task id="LOCAL-00043" summary="resolving SessionNotCreated Could not start a new session">
+      <option name="closed" value="true" />
+      <created>1707547273100</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1707547273100</updated>
+    </task>
+    <task id="LOCAL-00044" summary="resolving: Could not start a new session. Response code 500. Message: create container: Error response from daemon: No such image: selenoid/vnc:firefox_89.0">
+      <option name="closed" value="true" />
+      <created>1707551567699</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1707551567700</updated>
+    </task>
+    <task id="LOCAL-00045" summary="resolving: Cannot invoke &quot;com.example.teamcity.api.generators.TestDataStorage.addTestData()&quot; because &quot;this.testDataStorage&quot; is null&#10;           &#9;at com.example.teamcity.api.BuildConfigurationTest.buildConfigurationTest(BuildConfigurationTest.java:36)">
+      <option name="closed" value="true" />
+      <created>1707552545417</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1707552545417</updated>
+    </task>
+    <task id="LOCAL-00046" summary="setup_infra.sh is updated">
+      <option name="closed" value="true" />
+      <created>1707553655736</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1707553655736</updated>
+    </task>
+    <task id="LOCAL-00047" summary="refactoring">
+      <option name="closed" value="true" />
+      <created>1707554292007</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1707554292007</updated>
+    </task>
+    <task id="LOCAL-00048" summary="logs are deleted">
+      <option name="closed" value="true" />
+      <created>1707841503764</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1707841503764</updated>
+    </task>
+    <task id="LOCAL-00049" summary="checkstyle plugin, swagger-coverage-rest-assured dependency are added and some dependencies versions are extracted and updated">
+      <option name="closed" value="true" />
+      <created>1708771117491</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1708771117491</updated>
+    </task>
+    <task id="LOCAL-00050" summary="swagger-coverage-commandline is added">
+      <option name="closed" value="true" />
+      <created>1708786387186</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1708786387188</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="hometask-1-fixes" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="master" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="ui-tests" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="config.properties is updated" />
+    <MESSAGE value="comment is added" />
+    <MESSAGE value="hometask-2-ui-tests" />
+    <MESSAGE value="hometask-2-ui-tests additional solution is added" />
+    <MESSAGE value="hometask-3" />
+    <MESSAGE value="hometask-3 warning Schema validation is fixed" />
+    <MESSAGE value="resolving error: Unable to find image 'jetbrains/teamcity-server:2023.11.' locally" />
+    <MESSAGE value="resolving error: ./mvnw: Permission denied" />
+    <MESSAGE value="resolving error: ./mvnw: Permission denied, Run with mvn" />
+    <MESSAGE value="resolving error: ./mvnw: Permission denied - explaining commits added" />
+    <MESSAGE value="resolving: no super_user_token" />
+    <MESSAGE value="resolving: You have an error in your yaml syntax on line 41" />
+    <MESSAGE value="resolving: You have an error in your yaml syntax on line 40" />
+    <MESSAGE value="Set up browser and remote config properties" />
+    <MESSAGE value="resolving error in yaml syntax on line 36" />
+    <MESSAGE value="resolving error in yaml syntax on line 25" />
+    <MESSAGE value="resolving Error response from daemon: pull access denied for selenoid/vnc_firefox_89.0, repository does not exist or may require 'docker login'" />
+    <MESSAGE value="resolving SessionNotCreated Could not start a new session" />
+    <MESSAGE value="resolving: Could not start a new session. Response code 500. Message: create container: Error response from daemon: No such image: selenoid/vnc:firefox_89.0" />
+    <MESSAGE value="resolving: Cannot invoke &quot;com.example.teamcity.api.generators.TestDataStorage.addTestData()&quot; because &quot;this.testDataStorage&quot; is null&#10;           &#9;at com.example.teamcity.api.BuildConfigurationTest.buildConfigurationTest(BuildConfigurationTest.java:36)" />
+    <MESSAGE value="setup_infra.sh is updated" />
+    <MESSAGE value="refactoring" />
+    <MESSAGE value="logs are deleted" />
+    <MESSAGE value="checkstyle plugin, swagger-coverage-rest-assured dependency are added and some dependencies versions are extracted and updated" />
+    <MESSAGE value="swagger-coverage-commandline is added" />
+    <option name="LAST_COMMIT_MESSAGE" value="swagger-coverage-commandline is added" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

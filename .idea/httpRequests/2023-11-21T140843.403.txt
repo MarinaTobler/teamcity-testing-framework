@@ -1,0 +1,1 @@
+403 Forbidden: Responding with 403 status code due to failed CSRF check: authenticated POST request is made, but neither tc-csrf-token parameter nor X-TC-CSRF-Token header are provided. Consider deleting existing cookies associated with TeamCity domain and using Bearer Token authentication for you requests (such requests don't return session cookies).
