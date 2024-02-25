@@ -15,6 +15,7 @@ public class FavoritesPage extends Page {
 
     public final void waitUntilFavoritePageIsLoaded() {
         waitUntilPageIsLoaded();
-        header.shouldBe(Condition.visible, Duration.ofSeconds(10));
+//        header.shouldBe(Condition.visible, Duration.ofSeconds(10));
+        header.shouldBe(Condition.visible, BASE_WAITING);
     }
 }

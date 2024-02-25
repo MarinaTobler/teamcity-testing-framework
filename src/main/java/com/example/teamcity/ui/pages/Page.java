@@ -24,7 +24,8 @@ public abstract class Page {
 //   *  private SelenideElement pageWaitingMarker = element(Selectors.byDataTest("ring-loader"));
         private final SelenideElement pageWaitingMarker = $(byAttribute("data-test", "ring-loader"));
 
-
+        protected static final Duration BASE_WAITING = Duration.ofSeconds(30);
+        protected static final Duration LONG_WAITING = Duration.ofMinutes(5);
 
         public final void submit() {
                 submitButton.click();
@@ -35,7 +36,8 @@ public abstract class Page {
                 pageWaitingMarker.shouldNotBe(Condition.visible, Duration.ofMinutes(1));
         }
         public final void waitUntilDataIsSaved() {
-                savingWaitingMarker.shouldNotBe(Condition.visible, Duration.ofSeconds(30));
+//                savingWaitingMarker.shouldNotBe(Condition.visible, Duration.ofSeconds(30));
+                savingWaitingMarker.shouldNotBe(Condition.visible, BASE_WAITING);
         }
 
         public final <T extends PageElement> List<T> generatePageElements(ElementsCollection collection,
