@@ -4,6 +4,12 @@ import org.apache.commons.lang3.RandomStringUtils;
 
 public final class RandomData {
     private static final int LENGTH = 10;
+    private static final int LENGTH_1 = 80;
+    private static final int LENGTH_1_MORE = 81;
+    private static final int LENGTH_2 = 225;
+    private static final int LENGTH_2_MORE = 226;
+    private static final int LENGTH_3 = 1025;
+    private static final int LENGTH_4 = 10001;
 
     private RandomData() {
 
@@ -23,7 +29,7 @@ public final class RandomData {
 
     // String contains any characters
     public static String getRandomString() {
-        return RandomStringUtils.random(10);
+        return RandomStringUtils.random(LENGTH);
     }
 
     public static String getOnlyLatinLetters() {
@@ -39,31 +45,25 @@ public final class RandomData {
     }
 
     public static String getString225() {
-        return RandomStringUtils.randomAlphabetic(225);
+        return RandomStringUtils.randomAlphabetic(LENGTH_2);
     }
 
     public static String getString226() {
-        return RandomStringUtils.randomAlphabetic(226);
+        return RandomStringUtils.randomAlphabetic(LENGTH_2_MORE);
     }
 
     public static String getString80() {
-        return RandomStringUtils.randomAlphabetic(80);
+        return RandomStringUtils.randomAlphabetic(LENGTH_1);
     }
 
     public static String getString81() {
-        return RandomStringUtils.randomAlphabetic(81);
-    }
-    public static String getString256() {
-        return RandomStringUtils.randomAlphabetic(256);
-    }
-    public static String getString257() {
-        return RandomStringUtils.randomAlphabetic(257);
+        return RandomStringUtils.randomAlphabetic(LENGTH_1_MORE);
     }
 
     public static String getString1025() {
-        return RandomStringUtils.randomAlphabetic(1025);
+        return RandomStringUtils.randomAlphabetic(LENGTH_3);
     }    public static String getString10001() {
-        return RandomStringUtils.randomAlphabetic(10001);
+        return RandomStringUtils.randomAlphabetic(LENGTH_4);
     }
 
 }
