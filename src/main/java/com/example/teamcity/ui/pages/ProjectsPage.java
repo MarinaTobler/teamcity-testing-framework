@@ -10,8 +10,8 @@ import java.util.List;
 import static com.codeborne.selenide.Selectors.byClassName;
 import static com.codeborne.selenide.Selenide.$$;
 
-public class ProjectsPage extends FavoritesPage{
-    private final static String FAVORITE_PROJECTS_URL = "/favorite/projects";
+public final class ProjectsPage extends FavoritesPage {
+    private static final String FAVORITE_PROJECTS_URL = "/favorite/projects";
 
 //    * private ElementsCollection subprojects = elements(new ByAttribute("class", "Subproject__container--WE"));
 //    * private ElementsCollection subprojects = elements(Selectors.byClass("Subproject__container--WE"));
@@ -27,7 +27,9 @@ public class ProjectsPage extends FavoritesPage{
         public List<ProjectElement> getSubprojects() {
 
 //            return generatePageElements(subprojects);
-            return generatePageElements(subprojects, ProjectElement::new);    // ProjectElement::new - function (ProjectElement - expected type, new - returns element )
+
+            // ProjectElement::new - function (ProjectElement - expected type, new - returns element )
+            return generatePageElements(subprojects, ProjectElement::new);
         }
 
 

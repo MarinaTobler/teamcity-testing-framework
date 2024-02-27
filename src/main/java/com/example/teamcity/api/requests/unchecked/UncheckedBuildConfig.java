@@ -7,7 +7,7 @@ import io.restassured.specification.RequestSpecification;
 
 import static io.restassured.RestAssured.given;
 
-public class UncheckedBuildConfig extends Request implements CrudInterface {
+public final class UncheckedBuildConfig extends Request implements CrudInterface {
     private static final String BUILD_CONFIG_ENDPOINT = "/app/rest/buildTypes";
 
     public UncheckedBuildConfig(RequestSpecification spec) {

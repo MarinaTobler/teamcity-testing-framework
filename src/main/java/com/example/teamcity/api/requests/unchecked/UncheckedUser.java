@@ -8,8 +8,8 @@ import io.restassured.specification.RequestSpecification;
 
 import static io.restassured.RestAssured.given;
 
-public class UncheckedUser extends Request implements CrudInterface {
-    private final static String USER_ENDPOINT = "/app/rest/users";
+public final class UncheckedUser extends Request implements CrudInterface {
+    private static final String USER_ENDPOINT = "/app/rest/users";
 
     public UncheckedUser(RequestSpecification spec) {
         super(spec);

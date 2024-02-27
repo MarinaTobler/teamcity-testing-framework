@@ -7,7 +7,7 @@ import com.example.teamcity.ui.pages.Page;
 import static com.codeborne.selenide.Selectors.byId;
 import static com.codeborne.selenide.Selenide.$;
 
-public class CreateNewProject extends Page {
+public final class CreateNewProject extends Page {
 //  *  private SelenideElement urlInput = element(Selectors.byId("url"));
     private SelenideElement urlInput = $(byId("url"));
 
@@ -18,7 +18,7 @@ public class CreateNewProject extends Page {
     private SelenideElement buildTypeNameInput = $(byId("buildTypeName"));
 
     public CreateNewProject open(String parentProjectId) {
-        Selenide.open("/admin/createObjectMenu.html?projectId="+ parentProjectId +"&showMode=createProjectMenu");
+        Selenide.open("/admin/createObjectMenu.html?projectId=" + parentProjectId + "&showMode=createProjectMenu");
         waitUntilPageIsLoaded();
         return this;
     }
@@ -29,7 +29,7 @@ public class CreateNewProject extends Page {
         return this;
     }
 
-    public void setupProject(String projectName, String buildTypeName){
+    public void setupProject(String projectName, String buildTypeName) {
         projectNameInput.clear();
         projectNameInput.sendKeys(projectName);
         buildTypeNameInput.clear();

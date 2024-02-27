@@ -9,7 +9,9 @@ import com.example.teamcity.api.models.User;
 
 import java.util.Arrays;
 
-public class TestDataGenerator {
+public final class TestDataGenerator {
+    private TestDataGenerator() {
+    }
     public static TestData generate() {
         var user = User.builder()
                 .username(RandomData.getString())
@@ -50,8 +52,8 @@ public class TestDataGenerator {
     }
 
     public static Roles generateRoles(com.example.teamcity.api.enums.Role role, String scope) {
-        return Roles.builder().role
-                        (Arrays.asList(Role.builder()
+        return Roles.builder()
+                .role(Arrays.asList(Role.builder()
                                 .roleId(role.getText())
                                 .scope(scope)
                                 .build()))

@@ -6,7 +6,7 @@ import lombok.Getter;
 import static com.codeborne.selenide.Selectors.byAttribute;
 import static com.codeborne.selenide.Selenide.$;
 @Getter
-public class ProjectElement extends PageElement{
+public final class ProjectElement extends PageElement {
 
     private final SelenideElement header;
     private final SelenideElement icon;
@@ -16,7 +16,7 @@ public class ProjectElement extends PageElement{
 
 //        this.header = element.find(Selectors.byDataTest("subproject"));
 //      *  this.header = findElement(Selectors.byDataTest("subproject"));
-        this.header = $(byAttribute("data-test","subproject"));
+        this.header = $(byAttribute("data-test", "subproject"));
 //        this.icon = element.find("svg");
 //      *  this.icon = findElement("svg");
         this.icon = $("svg");

@@ -11,15 +11,15 @@ public abstract class PageElement {
         this.element = element;
     }
 
-    public SelenideElement findElement(By by) {
+    public final SelenideElement findElement(By by) {
         return element.find(by);
     }
 
-    public SelenideElement findElement(String value) {
+    public final SelenideElement findElement(String value) {
         return element.find(value);
     }
 
-    public ElementsCollection findElements(By by) {
+    public final ElementsCollection findElements(By by) {
         return element.$$(by);
     }
 }

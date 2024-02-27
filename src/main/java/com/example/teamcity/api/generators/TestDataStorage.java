@@ -3,7 +3,7 @@ package com.example.teamcity.api.generators;
 import java.util.ArrayList;
 import java.util.List;
 
-public class TestDataStorage {
+public final class TestDataStorage {
     private static TestDataStorage testDataStorage;
     private List<TestData> testDataList;
     private TestDataStorage() {
@@ -11,7 +11,7 @@ public class TestDataStorage {
     }
 
     public static TestDataStorage getStorage() {
-        if(testDataStorage == null) {
+        if (testDataStorage == null) {
             testDataStorage = new TestDataStorage();
         }
         return testDataStorage;

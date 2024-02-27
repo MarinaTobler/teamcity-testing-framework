@@ -16,29 +16,32 @@ import static com.codeborne.selenide.Selenide.$;
 
 public abstract class Page {
 //   *  private SelenideElement submitButton = element(Selectors.byType("submit"));
-        private SelenideElement submitButton = $(byAttribute("type", "submit"));
+        private final SelenideElement submitButton = $(byAttribute("type", "submit"));
 
 //   *  private SelenideElement savingWaitingMarker = element(Selectors.byId("saving"));
-        private SelenideElement savingWaitingMarker = $(byId("saving"));
+        private final SelenideElement savingWaitingMarker = $(byId("saving"));
 
 //   *  private SelenideElement pageWaitingMarker = element(Selectors.byDataTest("ring-loader"));
-        private SelenideElement pageWaitingMarker = $(byAttribute("data-test", "ring-loader"));
+        private final SelenideElement pageWaitingMarker = $(byAttribute("data-test", "ring-loader"));
 
+        protected static final Duration BASE_WAITING = Duration.ofSeconds(30);
+        protected static final Duration LONG_WAITING = Duration.ofMinutes(5);
 
-
-        public void submit() {
+        public final void submit() {
                 submitButton.click();
                 waitUntilDataIsSaved();
         }
 
-        public void waitUntilPageIsLoaded() {
+        public final void waitUntilPageIsLoaded() {
                 pageWaitingMarker.shouldNotBe(Condition.visible, Duration.ofMinutes(1));
         }
-        public void waitUntilDataIsSaved() {
-                savingWaitingMarker.shouldNotBe(Condition.visible, Duration.ofSeconds(30));
+        public final void waitUntilDataIsSaved() {
+//                savingWaitingMarker.shouldNotBe(Condition.visible, Duration.ofSeconds(30));
+                savingWaitingMarker.shouldNotBe(Condition.visible, BASE_WAITING);
         }
 
-        public <T extends PageElement> List<T> generatePageElements(ElementsCollection collection, Function<SelenideElement, T> creator) {
+        public final <T extends PageElement> List<T> generatePageElements(ElementsCollection collection,
+                                                                          Function<SelenideElement, T> creator) {
 //                var elements = new ArrayList<ProjectElement>();
                 var elements = new ArrayList<T>();
 
@@ -47,7 +50,9 @@ public abstract class Page {
 //                                elements.add(pageElement);
 //                        }
 //                collection.forEach(webElement -> elements.add(new ProjectElement(webElement)));
-                collection.forEach(webElement -> elements.add(creator.apply(webElement)));  // creating element by webElement
+
+                // creating element by webElement
+                collection.forEach(webElement -> elements.add(creator.apply(webElement)));
 
                 return elements;
         }
