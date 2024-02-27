@@ -115,12 +115,12 @@ jobs:
         # ошибка: java.lang.NullPointerException: Cannot invoke "com.example.teamcity.api.generators.TestDataStorage.addTestData()" because "this.testDataStorage" is null
         # at com.example.teamcity.api.BuildConfigurationTest.buildConfigurationTest(BuildConfigurationTest.java:36)
 
-      - name: Run ui tests
-        run: mvn test -DsuiteXmlFile=testng-suites/ui-suite.xml
-        timeout-minutes: 30
-
       - name: Run api tests
         run: mvn test -DsuiteXmlFile=testng-suites/api-suite.xml
+        timeout-minutes: 30
+
+      - name: Run ui tests
+        run: mvn test -DsuiteXmlFile=testng-suites/ui-suite.xml
         timeout-minutes: 30
 
       - name: Load test report history
