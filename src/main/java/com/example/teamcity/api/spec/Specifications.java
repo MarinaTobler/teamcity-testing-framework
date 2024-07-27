@@ -4,6 +4,7 @@ import com.example.teamcity.api.config.Config;
 import com.example.teamcity.api.models.User;
 import com.github.viclovsky.swagger.coverage.FileSystemOutputWriter;
 import com.github.viclovsky.swagger.coverage.SwaggerCoverageRestAssured;
+import io.qameta.allure.restassured.AllureRestAssured;
 import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.filter.log.RequestLoggingFilter;
 import io.restassured.filter.log.ResponseLoggingFilter;
@@ -15,8 +16,13 @@ import java.nio.file.Paths;
 public final class Specifications {
     private static Specifications spec;
 
-    private Specifications() { }
+    // Чтобы сделать класс Singleton'om, закрываем конструктор (так нельзя будет создать новый Specifications):
+    // Внутри класса мы можем вызывать конструктор, а снаружи нет.
+    private Specifications() {
+    }
 
+    // Если спецификации ещё нет, мы её создаём, а если есть - возвращаем.
+    // Эта конструкция гарантирует, что спецификация у нас будет всегда в одном экземлпяре:
     public static Specifications getSpec() {
         if (spec == null) {
             spec = new Specifications();
@@ -30,6 +36,7 @@ public final class Specifications {
         requestBuilder.addFilter(new ResponseLoggingFilter());
         requestBuilder.addFilter(new SwaggerCoverageRestAssured(new FileSystemOutputWriter(
                 Paths.get("target/swagger-coverage-output"))));
+        requestBuilder.addFilter(new AllureRestAssured());
         requestBuilder.setContentType(ContentType.JSON);
         requestBuilder.setAccept(ContentType.JSON);
         return requestBuilder;
